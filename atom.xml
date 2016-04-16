@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Trili&#39;s Lab</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://trili.me/"/>
+  <updated>2016-04-16T10:22:36.000Z</updated>
+  <id>http://trili.me/</id>
+  
+  <author>
+    <name>Trili</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://trili.me/2016/04/16/hello-world/"/>
+    <id>http://trili.me/2016/04/16/hello-world/</id>
+    <published>2016-04-16T02:44:20.890Z</published>
+    <updated>2016-04-16T10:22:36.000Z</updated>
+    
+    <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;http://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;http://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;http://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;http://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h2 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;# Create a new post&quot;&gt;&lt;/a&gt;# Create a new post&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;# Run server&quot;&gt;&lt;/a&gt;# Run server&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Generate-static-files&quot;&gt;&lt;a href=&quot;#Generate-static-files&quot; class=&quot;headerlink&quot; title=&quot;# Generate static files&quot;&gt;&lt;/a&gt;# Generate static files&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Deploy-to-remote-sites&quot;&gt;&lt;a href=&quot;#Deploy-to-remote-sites&quot; class=&quot;headerlink&quot; title=&quot;# Deploy to remote sites&quot;&gt;&lt;/a&gt;# Deploy to remote sites&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;http://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;http://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;http://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;http://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>游上海欢乐谷</title>
+    <link href="http://trili.me/2016/04/09/%E6%B8%B8%E4%B8%8A%E6%B5%B7%E6%AC%A2%E4%B9%90%E8%B0%B7/"/>
+    <id>http://trili.me/2016/04/09/游上海欢乐谷/</id>
+    <published>2016-04-08T16:00:00.000Z</published>
+    <updated>2016-04-16T11:42:20.000Z</updated>
+    
+    <content type="html">&lt;blockquote&gt;
+&lt;h2 id=&quot;前方高能&quot;&gt;&lt;a href=&quot;#前方高能&quot; class=&quot;headerlink&quot; title=&quot;前方高能&quot;&gt;&lt;/a&gt;前方高能&lt;/h2&gt;&lt;p&gt;流量党注意(゜o゜;&lt;br&gt;文章内有多图!!!(体积高达30M)且内有视频!!!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;欢乐谷全景&quot;&gt;&lt;a href=&quot;#欢乐谷全景&quot; class=&quot;headerlink&quot; title=&quot;欢乐谷全景&quot;&gt;&lt;/a&gt;欢乐谷全景&lt;/h2&gt;&lt;video src=&quot;http://7xrsv2.com1.z0.glb.clouddn.com/%E4%B8%8A%E6%B5%B7%E6%AC%A2%E4%B9%90%E8%B0%B7.mp4&quot; preload=&quot;none&quot; controls style=&quot;width:100%&quot;&gt;您的浏览器不支持 video 标签，请换个浏览器试试&lt;/video&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;就在昨天(2016-04-09)学校组织了春游，地点是上海欢乐谷；这次比上次去泰晤士小镇来的好多了。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;http://trili.me/2016/04/997486739.jpg&quot; alt=&quot;欢乐谷大门&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://trili.me/2016/04/3720603937.jpg&quot; alt=&quot;入门后的一段路&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;景观&quot;&gt;&lt;a href=&quot;#景观&quot; class=&quot;headerlink&quot; title=&quot;景观&quot;&gt;&lt;/a&gt;景观&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://trili.me/2016/04/2425087972.jpg&quot; alt=&quot;IMG_20160408_103325.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://trili.me/2016/04/2079256788.jpg&quot; alt=&quot;IMG_20160408_104548.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://trili.me/2016/04/423456652.jpg&quot; alt=&quot;IMG_20160408_092736.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://trili.me/2016/04/2994722975.jpg&quot; alt=&quot;IMG_20160408_093034.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://trili.me/2016/04/2543153404.jpg&quot; alt=&quot;IMG_20160408_093354.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://trili.me/2016/04/2266980915.jpg&quot; alt=&quot;IMG_20160408_093456.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://trili.me/2016/04/1021661549.jpg&quot; alt=&quot;IMG_20160408_094131.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://trili.me/2016/04/4226301234.jpg&quot; alt=&quot;IMG_20160408_101459.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://trili.me/2016/04/4216206100.jpg&quot; alt=&quot;IMG_20160408_103145.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://trili.me/2016/04/1220723128.jpg&quot; alt=&quot;IMG_20160408_103436.jpg&quot;&gt;&lt;br&gt;去的时候虽然是淡季，但是人还是好多，各种排队…&lt;br&gt;&lt;img src=&quot;http://trili.me/2016/04/3584290542.jpg&quot; alt=&quot;IMG_20160408_094553.jpg&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;后记&quot;&gt;&lt;a href=&quot;#后记&quot; class=&quot;headerlink&quot; title=&quot;后记&quot;&gt;&lt;/a&gt;后记&lt;/h2&gt;&lt;p&gt;人很多，大部分时间都花在排队上了，一上午只玩了4个项目。下午基本没完，在逛小店，游乐场里有家ACG店 卖各种ACG周边物品 我看了看价格后，选择了死亡 默默拿起手机点开了淘宝…&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;h2 id=&quot;前方高能&quot;&gt;&lt;a href=&quot;#前方高能&quot; class=&quot;headerlink&quot; title=&quot;前方高能&quot;&gt;&lt;/a&gt;前方高能&lt;/h2&gt;&lt;p&gt;流量党注意(゜o゜;&lt;br&gt;文章内有多图!!!(体积高达30M)且内有视频!!!&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>07年的电脑玩MC1.9.2？impossible！</title>
+    <link href="http://trili.me/2016/04/04/07%E5%B9%B4%E7%9A%84%E7%94%B5%E8%84%91%E7%8E%A9MC1.9.2%EF%BC%9Fimpossible%EF%BC%81/"/>
+    <id>http://trili.me/2016/04/04/07年的电脑玩MC1.9.2？impossible！/</id>
+    <published>2016-04-03T16:00:00.000Z</published>
+    <updated>2016-04-16T11:42:08.000Z</updated>
+    
+    <content type="html">&lt;p&gt;许久前，加入了一个MC游戏的QQ群；服务器的MC版本是1.9 我一直不敢尝试，因为电脑实在太破，直到今天…&lt;br&gt;我调低了各种参数后，游戏勉强运行起来了；然而…这能玩???&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;电脑的配置如下，只有2G的运行内存和512M的集成显卡；已经是老古董了，看CPU的命名就知道。&lt;br&gt;&lt;img src=&quot;http://trili.me/2016/04/2627825914.png&quot; alt=&quot;screenshot_20160404_130101.png&quot;&gt;&lt;br&gt;不知为何，游戏玩着玩着就成这样了；MC完美被我玩坏(゜o゜;&lt;/p&gt;
+&lt;p&gt;&lt;video src=&quot;http://7xrsv2.com1.z0.glb.clouddn.com/07%E5%B9%B4%E7%9A%84%E7%94%B5%E8%84%91%E7%8E%A9MC1.9.2%EF%BC%9Fimpossible%EF%BC%81.mp4&quot; preload=&quot;none&quot; controls style=&quot;width:100%&quot;&gt;您的浏览器不支持 video 标签，请换个浏览器试试&lt;/video&gt;&lt;br&gt;本来游戏的帧数还没这么低，开了屏幕录制后就成这样了。我也是醉了啊。勉强看吧！&lt;br&gt;原本视频是用手机对着屏幕拍，但是手抖的厉害；就直接屏幕录制了。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;许久前，加入了一个MC游戏的QQ群；服务器的MC版本是1.9 我一直不敢尝试，因为电脑实在太破，直到今天…&lt;br&gt;我调低了各种参数后，游戏勉强运行起来了；然而…这能玩???&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>游戏？我只玩这些</title>
+    <link href="http://trili.me/2016/04/02/%E6%B8%B8%E6%88%8F%EF%BC%9F%E6%88%91%E5%8F%AA%E7%8E%A9%E8%BF%99%E4%BA%9B/"/>
+    <id>http://trili.me/2016/04/02/游戏？我只玩这些/</id>
+    <published>2016-04-01T16:00:00.000Z</published>
+    <updated>2016-04-16T11:41:58.000Z</updated>
+    
+    <content type="html">&lt;p&gt;手机对我而言早已不再是通讯的工具，它已经成为了我生活中必不可少的东西。&lt;br&gt;平时的买买买，看视频，听音乐也基本都在手机上执行。但是对我而言手机最让我无法割舍的原因就是手机能玩游戏；Play Store里的游戏总是让我看的眼花，各个游戏的内容，玩法又各不相同。&lt;br&gt;所以今天，我挑选出最喜欢的5个游戏，与大家分享。&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;Minecraft-Pocket-Edition&quot;&gt;&lt;a href=&quot;#Minecraft-Pocket-Edition&quot; class=&quot;headerlink&quot; title=&quot;Minecraft - Pocket Edition&quot;&gt;&lt;/a&gt;Minecraft - Pocket Edition&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://trili.me/2016/04/3533550007.png&quot; alt=&quot;Minecraft - Pocket Edition&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h3&gt;&lt;p&gt;喜欢&lt;strong&gt;我的世界&lt;/strong&gt;的人都说这是一款神级游戏，开放好玩。不喜欢都说这游戏没剧情，不会玩。&lt;br&gt;是的，我喜欢Minecraft - Pocket Edition的原因就是因为它的开放，自由的世界可以让我脑洞大开。&lt;br&gt;房子，铁轨，矿洞都由我自己创造；乐趣无穷。&lt;/p&gt;
+&lt;h3 id=&quot;下载&quot;&gt;&lt;a href=&quot;#下载&quot; class=&quot;headerlink&quot; title=&quot;下载&quot;&gt;&lt;/a&gt;下载&lt;/h3&gt;&lt;h4 id=&quot;Google-play&quot;&gt;&lt;a href=&quot;#Google-play&quot; class=&quot;headerlink&quot; title=&quot;Google play&quot;&gt;&lt;/a&gt;Google play&lt;/h4&gt;&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.mojang.minecraftpe&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://play.google.com/store/apps/details?id=com.mojang.minecraftpe&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;CoolApk&quot;&gt;&lt;a href=&quot;#CoolApk&quot; class=&quot;headerlink&quot; title=&quot;CoolApk&quot;&gt;&lt;/a&gt;CoolApk&lt;/h4&gt;&lt;p&gt;&lt;a href=&quot;http://coolapk.com/game/com.mojang.minecraftpe&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://coolapk.com/game/com.mojang.minecraftpe&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Geometry-Dash-Lite&quot;&gt;&lt;a href=&quot;#Geometry-Dash-Lite&quot; class=&quot;headerlink&quot; title=&quot;Geometry Dash Lite&quot;&gt;&lt;/a&gt;Geometry Dash Lite&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://trili.me/2016/04/2404768118.png&quot; alt=&quot;Geometry Dash Lite&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;介绍-1&quot;&gt;&lt;a href=&quot;#介绍-1&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h3&gt;&lt;p&gt;这款游戏是&lt;a href=&quot;http://imikirby.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;老杨&lt;/a&gt;分享给我的，游戏的难度很大；我玩了几个月了都才玩到第三关。&lt;br&gt;而老杨则像是开了挂一样，简直逆天。这游戏治好了我多年的手残~~~&lt;/p&gt;
+&lt;h3 id=&quot;下载-1&quot;&gt;&lt;a href=&quot;#下载-1&quot; class=&quot;headerlink&quot; title=&quot;下载&quot;&gt;&lt;/a&gt;下载&lt;/h3&gt;&lt;h4 id=&quot;Google-play-1&quot;&gt;&lt;a href=&quot;#Google-play-1&quot; class=&quot;headerlink&quot; title=&quot;Google play&quot;&gt;&lt;/a&gt;Google play&lt;/h4&gt;&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.robtopx.geometryjump&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://play.google.com/store/apps/details?id=com.robtopx.geometryjump&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;CoolApk-1&quot;&gt;&lt;a href=&quot;#CoolApk-1&quot; class=&quot;headerlink&quot; title=&quot;CoolApk&quot;&gt;&lt;/a&gt;CoolApk&lt;/h4&gt;&lt;p&gt;&lt;a href=&quot;http://coolapk.com/game/com.robtopx.geometryjump&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://coolapk.com/game/com.robtopx.geometryjump&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Alto’s-Adventure&quot;&gt;&lt;a href=&quot;#Alto’s-Adventure&quot; class=&quot;headerlink&quot; title=&quot;Alto’s Adventure&quot;&gt;&lt;/a&gt;Alto’s Adventure&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://trili.me/2016/04/3248546110.png&quot; alt=&quot;Alto&amp;#39;s Adventure&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;介绍-2&quot;&gt;&lt;a href=&quot;#介绍-2&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h3&gt;&lt;p&gt;这个游戏类似于国内的&lt;strong&gt;滑雪大冒险&lt;/strong&gt;但是游戏的画风两者是根本无法相比的；ALTO的画风唯美，每一帧都可以作为壁纸。&lt;br&gt;同时难度也不小，有&lt;strong&gt;长者&lt;/strong&gt;会骑着马来追杀你。表示昨晚刚刚打破老杨的记录，哈哈&lt;/p&gt;
+&lt;h3 id=&quot;下载-2&quot;&gt;&lt;a href=&quot;#下载-2&quot; class=&quot;headerlink&quot; title=&quot;下载&quot;&gt;&lt;/a&gt;下载&lt;/h3&gt;&lt;h4 id=&quot;Google-play-2&quot;&gt;&lt;a href=&quot;#Google-play-2&quot; class=&quot;headerlink&quot; title=&quot;Google play&quot;&gt;&lt;/a&gt;Google play&lt;/h4&gt;&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.noodlecake.altosadventure&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://play.google.com/store/apps/details?id=com.noodlecake.altosadventure&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;CoolApk-2&quot;&gt;&lt;a href=&quot;#CoolApk-2&quot; class=&quot;headerlink&quot; title=&quot;CoolApk&quot;&gt;&lt;/a&gt;CoolApk&lt;/h4&gt;&lt;p&gt;&lt;a href=&quot;http://coolapk.com/game/com.noodlecake.altosadventure&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://coolapk.com/game/com.noodlecake.altosadventure&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;BADLAND&quot;&gt;&lt;a href=&quot;#BADLAND&quot; class=&quot;headerlink&quot; title=&quot;BADLAND&quot;&gt;&lt;/a&gt;BADLAND&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://trili.me/2016/04/2146093836.png&quot; alt=&quot;BADLAND&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;介绍-3&quot;&gt;&lt;a href=&quot;#介绍-3&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h3&gt;&lt;p&gt;这款游戏跟ALTO一样，画风唯美；但是游戏玩到后面。关卡的难度简直变态；想通关，还得靠运气。&lt;/p&gt;
+&lt;h3 id=&quot;下载-3&quot;&gt;&lt;a href=&quot;#下载-3&quot; class=&quot;headerlink&quot; title=&quot;下载&quot;&gt;&lt;/a&gt;下载&lt;/h3&gt;&lt;p&gt;由于GFW原因，在酷安安装的游戏无法下载到数据包&lt;del&gt;，所以我上传了游戏的数据包，数据包请在“OwnCloud”下载。&lt;/del&gt;&lt;/p&gt;
+&lt;h4 id=&quot;Google-play-3&quot;&gt;&lt;a href=&quot;#Google-play-3&quot; class=&quot;headerlink&quot; title=&quot;Google play&quot;&gt;&lt;/a&gt;Google play&lt;/h4&gt;&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.frogmind.badland&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://play.google.com/store/apps/details?id=com.frogmind.badland&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;CoolApk-3&quot;&gt;&lt;a href=&quot;#CoolApk-3&quot; class=&quot;headerlink&quot; title=&quot;CoolApk&quot;&gt;&lt;/a&gt;CoolApk&lt;/h4&gt;&lt;p&gt;&lt;a href=&quot;http://coolapk.com/game/com.frogmind.badland&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://coolapk.com/game/com.frogmind.badland&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Daddy-Long-Legs&quot;&gt;&lt;a href=&quot;#Daddy-Long-Legs&quot; class=&quot;headerlink&quot; title=&quot;Daddy Long Legs&quot;&gt;&lt;/a&gt;Daddy Long Legs&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://trili.me/2016/04/2806396637.png&quot; alt=&quot;Daddy Long Legs&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;介绍-4&quot;&gt;&lt;a href=&quot;#介绍-4&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h3&gt;&lt;p&gt;这是一款超级虐心的游戏，纯靠人品的游戏。唉，玩得我都想摔机了= =&lt;/p&gt;
+&lt;h3 id=&quot;下载-4&quot;&gt;&lt;a href=&quot;#下载-4&quot; class=&quot;headerlink&quot; title=&quot;下载&quot;&gt;&lt;/a&gt;下载&lt;/h3&gt;&lt;h4 id=&quot;Google-play-4&quot;&gt;&lt;a href=&quot;#Google-play-4&quot; class=&quot;headerlink&quot; title=&quot;Google play&quot;&gt;&lt;/a&gt;Google play&lt;/h4&gt;&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.setsnail.daddylonglegs&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://play.google.com/store/apps/details?id=com.setsnail.daddylonglegs&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;CoolApk-4&quot;&gt;&lt;a href=&quot;#CoolApk-4&quot; class=&quot;headerlink&quot; title=&quot;CoolApk&quot;&gt;&lt;/a&gt;CoolApk&lt;/h4&gt;&lt;p&gt;&lt;a href=&quot;http://coolapk.com/game/com.setsnail.daddylonglegs&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://coolapk.com/game/com.setsnail.daddylonglegs&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;游戏视频&quot;&gt;&lt;a href=&quot;#游戏视频&quot; class=&quot;headerlink&quot; title=&quot;游戏视频&quot;&gt;&lt;/a&gt;游戏视频&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;视频内容以介绍性为主，所以死的比较快。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;video src=&quot;http://7xrsv2.com1.z0.glb.clouddn.com/%E6%B8%B8%E6%88%8F%EF%BC%9F%E6%88%91%E5%8F%AA%E7%8E%A9%E8%BF%99%E4%BA%9B.mp4&quot; preload=&quot;none&quot; controls style=&quot;width:100%&quot;&gt;您的浏览器不支持 video 标签，请换个浏览器试试&lt;/video&gt;
+
+
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;手机对我而言早已不再是通讯的工具，它已经成为了我生活中必不可少的东西。&lt;br&gt;平时的买买买，看视频，听音乐也基本都在手机上执行。但是对我而言手机最让我无法割舍的原因就是手机能玩游戏；Play Store里的游戏总是让我看的眼花，各个游戏的内容，玩法又各不相同。&lt;br&gt;所以今天，我挑选出最喜欢的5个游戏，与大家分享。&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>家乡的花</title>
+    <link href="http://trili.me/2016/03/27/%E5%AE%B6%E4%B9%A1%E7%9A%84%E8%8A%B1/"/>
+    <id>http://trili.me/2016/03/27/家乡的花/</id>
+    <published>2016-03-26T16:00:00.000Z</published>
+    <updated>2016-04-16T11:41:02.000Z</updated>
+    
+    <content type="html">&lt;blockquote&gt;
+&lt;h2 id=&quot;前方高能&quot;&gt;&lt;a href=&quot;#前方高能&quot; class=&quot;headerlink&quot; title=&quot;前方高能&quot;&gt;&lt;/a&gt;前方高能&lt;/h2&gt;&lt;p&gt;文章内有多图!!!(未压缩，原图)&lt;br&gt;文章内有自动播放的背景音乐！！！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;我住在上海郊区(奉贤)奶奶家还有个果园，春天到了，各种花都开放了；突发兴致，随手拍了一组照片。&lt;/p&gt;
+&lt;h2 id=&quot;相关下载&quot;&gt;&lt;a href=&quot;#相关下载&quot; class=&quot;headerlink&quot; title=&quot;相关下载&quot;&gt;&lt;/a&gt;相关下载&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://cloud.trili.me/index.php/s/e2H1SBfm3Fu3wQt&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;下载背景音乐&lt;/a&gt; &lt;a href=&quot;http://cloud.trili.me/index.php/s/Gt3q5FBBmx0yqC3&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;下载图片&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;桃花&quot;&gt;&lt;a href=&quot;#桃花&quot; class=&quot;headerlink&quot; title=&quot;桃花&quot;&gt;&lt;/a&gt;桃花&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://trili.me/usr/uploads/2016/03/771807159.jpg&quot; alt=&quot;Peach blossom6&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://trili.me/usr/uploads/2016/03/511214808.jpg&quot; alt=&quot;Peach blossom5&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://trili.me/usr/uploads/2016/03/1206779989.jpg&quot; alt=&quot;Peach blossom4&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://trili.me/usr/uploads/2016/03/3576424054.jpg&quot; alt=&quot;Peach blossom3&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://trili.me/usr/uploads/2016/03/2418793388.jpg&quot; alt=&quot;Peach blossom2&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://trili.me/usr/uploads/2016/03/2301711026.jpg&quot; alt=&quot;Peach blossom1&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;梨花&quot;&gt;&lt;a href=&quot;#梨花&quot; class=&quot;headerlink&quot; title=&quot;梨花&quot;&gt;&lt;/a&gt;梨花&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://trili.me/usr/uploads/2016/03/2050477519.jpg&quot; alt=&quot;Ewha1&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://trili.me/usr/uploads/2016/03/1800029369.jpg&quot; alt=&quot;Ewha2&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;樱桃花&quot;&gt;&lt;a href=&quot;#樱桃花&quot; class=&quot;headerlink&quot; title=&quot;樱桃花&quot;&gt;&lt;/a&gt;樱桃花&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://trili.me/usr/uploads/2016/03/1097944275.jpg&quot; alt=&quot;Cherry1&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;油菜花&quot;&gt;&lt;a href=&quot;#油菜花&quot; class=&quot;headerlink&quot; title=&quot;油菜花&quot;&gt;&lt;/a&gt;油菜花&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://trili.me/usr/uploads/2016/03/2285521730.jpg&quot; alt=&quot;cauliflower1&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://trili.me/usr/uploads/2016/03/51314036.jpg&quot; alt=&quot;cauliflower2&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;背景音乐&quot;&gt;&lt;a href=&quot;#背景音乐&quot; class=&quot;headerlink&quot; title=&quot;背景音乐&quot;&gt;&lt;/a&gt;背景音乐&lt;/h2&gt;&lt;p&gt;[audio]&lt;a href=&quot;http://cloud.trili.me/index.php/s/e2H1SBfm3Fu3wQt/download[/audio&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://cloud.trili.me/index.php/s/e2H1SBfm3Fu3wQt/download[/audio&lt;/a&gt;]&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;h2 id=&quot;前方高能&quot;&gt;&lt;a href=&quot;#前方高能&quot; class=&quot;headerlink&quot; title=&quot;前方高能&quot;&gt;&lt;/a&gt;前方高能&lt;/h2&gt;&lt;p&gt;文章内有多图!!!(未压缩，原图)&lt;br&gt;文章内有自动播放的背景音乐！！！&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>初次体验 Cardboard</title>
+    <link href="http://trili.me/2016/03/17/%E5%88%9D%E6%AC%A1%E4%BD%93%E9%AA%8C%20Cardboard/"/>
+    <id>http://trili.me/2016/03/17/初次体验 Cardboard/</id>
+    <published>2016-03-16T16:00:00.000Z</published>
+    <updated>2016-04-16T11:40:40.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://trili.me/2016/03/499600467.jpg&quot; alt=&quot;Google Cardboard纸盒眼镜&quot;&gt;&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;前提&quot;&gt;&lt;a href=&quot;#前提&quot; class=&quot;headerlink&quot; title=&quot;前提&quot;&gt;&lt;/a&gt;前提&lt;/h2&gt;&lt;p&gt;入手一个眼镜，亲自折好，走进 Cardboard 世界。这样简单的眼镜，人人都可以制作或买到，是开启虚拟实境之旅的钥匙。有了眼镜后，您就可以体验各式各样的应用，看到不一样的世界。我们提供多种类型的眼镜，您一定可以找到适合自己的眼镜。&lt;br&gt;[float]转载至Cardboard官网[/float]&lt;/p&gt;
+&lt;h2 id=&quot;组装&quot;&gt;&lt;a href=&quot;#组装&quot; class=&quot;headerlink&quot; title=&quot;组装&quot;&gt;&lt;/a&gt;组装&lt;/h2&gt;&lt;p&gt;组装准确的说很简单，按照步骤把卡槽都插上就行；具体请看&lt;a href=&quot;http://trili.me/2016/03/499600468.pdf&quot;&gt;此PDF&lt;/a&gt;或以下视频。&lt;/p&gt;
+&lt;p&gt;&lt;video src=&quot;http://7xrsv2.com1.z0.glb.clouddn.com/%E5%88%9D%E6%AC%A1%E4%BD%93%E9%AA%8C%20Cardboard-1.mp4&quot; preload=&quot;none&quot; controls style=&quot;width:100%&quot;&gt;您的浏览器不支持 video 标签，请换个浏览器试试&lt;/video&gt;&lt;/p&gt;
+&lt;h2 id=&quot;游戏体验&quot;&gt;&lt;a href=&quot;#游戏体验&quot; class=&quot;headerlink&quot; title=&quot;游戏体验&quot;&gt;&lt;/a&gt;游戏体验&lt;/h2&gt;&lt;p&gt;&lt;video src=&quot;http://7xrsv2.com1.z0.glb.clouddn.com/%E5%88%9D%E6%AC%A1%E4%BD%93%E9%AA%8C%20Cardboard-2.mp4&quot; preload=&quot;none&quot; controls style=&quot;width:100%&quot;&gt;您的浏览器不支持 video 标签，请换个浏览器试试&lt;/video&gt;&lt;br&gt;不多说，看视频；游戏的体验还是很好的，就是我手机太渣只有720P。&lt;br&gt;我感受到了世界满满的恶意。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://trili.me/2016/03/499600467.jpg&quot; alt=&quot;Google Cardboard纸盒眼镜&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>折纸数学</title>
+    <link href="http://trili.me/2016/03/12/%E6%8A%98%E7%BA%B8%E6%95%B0%E5%AD%A6/"/>
+    <id>http://trili.me/2016/03/12/折纸数学/</id>
+    <published>2016-03-11T16:00:00.000Z</published>
+    <updated>2016-04-16T11:40:24.000Z</updated>
+    
+    <content type="html">&lt;p&gt;折纸数学是指对折纸艺术从数学的角度加以研究。比如，研究某个特定的纸模型的可展性（研究该模型是否可以摊平而无须把它弄破）以及使用折纸来解数学方程。&lt;br&gt;对一张纸不断对折，其损失函数为L = \frac{\pi t}{6} (2^n + 4)(2^n - 1)，这里 L 代表纸张的最小长度，t 代表纸张厚度，n 代表折叠次数。&lt;/p&gt;
+&lt;float&gt;以上内容转载至维基百科&lt;/float&gt;
+
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;首先，对折没要求这纸一定得是正方形的，一条很长很长的纸对折也行，mit的一群学生做过一个实验用接近四公里的卷筒纸对折，结果是13次。此外，美国的流言终结者节目用压路机等设备，最后折了11次。&lt;br&gt;我自己也试了下，只能对折8次，使用的还是很薄的纸巾。如果我对折的姿势不对，还望大家给我提出。&lt;/p&gt;
+&lt;p&gt;&lt;video src=&quot;http://7xrsv2.com1.z0.glb.clouddn.com/%E6%8A%98%E7%BA%B8%E6%95%B0%E5%AD%A6.mp4&quot; preload=&quot;none&quot; controls style=&quot;width:100%&quot;&gt;您的浏览器不支持 video 标签，请换个浏览器试试&lt;/video&gt;&lt;br&gt;阿里云ECS的上行貌似不咋地，视频有卡顿1080p根本没法看，480p的视频勉强看吧。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;折纸数学是指对折纸艺术从数学的角度加以研究。比如，研究某个特定的纸模型的可展性（研究该模型是否可以摊平而无须把它弄破）以及使用折纸来解数学方程。&lt;br&gt;对一张纸不断对折，其损失函数为L = \frac{\pi t}{6} (2^n + 4)(2^n - 1)，这里 L 代表纸张的最小长度，t 代表纸张厚度，n 代表折叠次数。&lt;/p&gt;
+&lt;float&gt;以上内容转载至维基百科&lt;/float&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>近况-2016-03-09</title>
+    <link href="http://trili.me/2016/03/09/%E8%BF%91%E5%86%B5-2016-03-09/"/>
+    <id>http://trili.me/2016/03/09/近况-2016-03-09/</id>
+    <published>2016-03-08T16:00:00.000Z</published>
+    <updated>2016-04-16T11:40:08.000Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;备案域名&quot;&gt;&lt;a href=&quot;#备案域名&quot; class=&quot;headerlink&quot; title=&quot;备案域名&quot;&gt;&lt;/a&gt;备案域名&lt;/h2&gt;&lt;p&gt;原本我一直不想去备案域名，总觉得备案神烦;而且备案以后还没什么大用。即暴露了自己的信息还麻烦的事谁会去做啊→_→&lt;br&gt;不过，我farbox套餐快要到期了再加上我买的阿里云一直闲置着，于是乎就把博客搬到了国内。&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;之前听周边的人都说备案很麻烦，要拍照啊，要寄资料啊，提交后还要等一周啊……不过，说实话我感觉备案还是挺方便的，主要就是因为上海地区备案不用邮寄资料，手机上装个app就能完成身份的审核，这样一来就剩了很多事。&lt;br&gt;上海的备案速度还是挺快的，3天左右就下来了，在网站底部加上备案号，就基本上完成了所有步骤。&lt;/p&gt;
+&lt;h2 id=&quot;安装Vesta面板&quot;&gt;&lt;a href=&quot;#安装Vesta面板&quot; class=&quot;headerlink&quot; title=&quot;安装Vesta面板&quot;&gt;&lt;/a&gt;安装Vesta面板&lt;/h2&gt;&lt;p&gt;我买的阿里云是青岛机房，国产面板(AMH,WDCP)的尿性想必大家也清楚，各种不好用。&lt;br&gt;试着安装了下vesta，果然下载文件时各种报错，无法连接到服务器啊之类的。&lt;br&gt;向好基友&lt;a href=&quot;http://mireas.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mireas&lt;/a&gt;借了下他的香港vps，给阿里云设置了全局ssh代理并且设置DNS为8.8.8.8后才勉强以8k/s左右的下载速度安装完了面板(期间下载依旧失败好多次→_→)。&lt;/p&gt;
+&lt;h2 id=&quot;办理银行卡&quot;&gt;&lt;a href=&quot;#办理银行卡&quot; class=&quot;headerlink&quot; title=&quot;办理银行卡&quot;&gt;&lt;/a&gt;办理银行卡&lt;/h2&gt;&lt;p&gt;平时我经常剁手，经常买买买买，同时同学也会找我代购；免不了要经常给支付婊充值。然而每次充值支付婊都要收取百分之一的手续费，也就是从花100元实际到账的只有95元，这tm抢钱呢。比银行汇款都贵的利率导致我每次都会在心中暗骂支付婊(无节操，无节操，无节操)。&lt;br&gt;正好学校附近就有一家浦发银行，当机立断，办卡去。妈妈再也不用担心被支付婊坑钱了，终于能愉快的买买买了呢。&lt;br&gt;现在已经把所有的钱都存进了浦发银行，买东西时直接刷卡，各种方便，各种装逼。&lt;/p&gt;
+&lt;h2 id=&quot;丢失交通卡&quot;&gt;&lt;a href=&quot;#丢失交通卡&quot; class=&quot;headerlink&quot; title=&quot;丢失交通卡&quot;&gt;&lt;/a&gt;丢失交通卡&lt;/h2&gt;&lt;p&gt;就在办好银行卡的第二天，伴随我一年的交通卡丢了，艹蛋啊→_→卡里还有82元呢，表示现在各种心疼，我想静静。(于次日晚8点找回)&lt;/p&gt;
+&lt;h2 id=&quot;总结&quot;&gt;&lt;a href=&quot;#总结&quot; class=&quot;headerlink&quot; title=&quot;总结&quot;&gt;&lt;/a&gt;总结&lt;/h2&gt;&lt;p&gt;以上就是我近期发生的事情，纯分享性质。此外我近期比较繁忙，没很多时间去更新博文，如果各位的评论没有及时回复还请见谅，谢谢。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;备案域名&quot;&gt;&lt;a href=&quot;#备案域名&quot; class=&quot;headerlink&quot; title=&quot;备案域名&quot;&gt;&lt;/a&gt;备案域名&lt;/h2&gt;&lt;p&gt;原本我一直不想去备案域名，总觉得备案神烦;而且备案以后还没什么大用。即暴露了自己的信息还麻烦的事谁会去做啊→_→&lt;br&gt;不过，我farbox套餐快要到期了再加上我买的阿里云一直闲置着，于是乎就把博客搬到了国内。&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>新购二手Mi 2A</title>
+    <link href="http://trili.me/2016/03/08/%E6%96%B0%E8%B4%AD%E4%BA%8C%E6%89%8BMi%202A/"/>
+    <id>http://trili.me/2016/03/08/新购二手Mi 2A/</id>
+    <published>2016-03-07T16:00:00.000Z</published>
+    <updated>2016-04-16T11:39:56.000Z</updated>
+    
+    <content type="html">&lt;p&gt;很早就听说MIUI的刷机包是如何如何的多，手机是如何如何的良心。&lt;br&gt;今天终于忍不住剁了手，买了小米2a，虽然是很老的机子了，但是运行原生安卓4.4.4还是丝滑流畅，一点也不逊色于我的OPPO。&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;img src=&quot;http://trili.me/2016/03/2348986153.jpg&quot; alt=&quot;IMG_20160308_221024.jpg&quot;&gt;&lt;br&gt;我对安卓6.0系统真是爱的深沉；本来小米2A就是为了原生系统。但是小米2a的/system分区太小了，刷了6.0.1后就没空间装gapps了，无奈刷成4.4.4&lt;br&gt;怎么说呢，小米还真是挺良心的4寸的屏幕分辨率上了720p而且有NFC(我这2k多的OPPO屏幕是720p，无NFC)&lt;br&gt;由于是原生系统，即使只有1G ram也可以开很多应用，仅仅运行毒瘤应用时有点卡顿，此外电池也是神给力，基本上2天一充(某oppo半天一充)&lt;br&gt;在此，不得不提下这部2a在对焦时摄像头居然会发出很明显的机械声，不过貌似并不影响使用，对焦也蛮快的。&lt;br&gt;在文章最后，我不得不吐槽下MIUI系统，tm授权个权限还要等5s，2a刚开机内存就被吃掉了800多m，我这也是醉了啊，还是原生大法好。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;很早就听说MIUI的刷机包是如何如何的多，手机是如何如何的良心。&lt;br&gt;今天终于忍不住剁了手，买了小米2a，虽然是很老的机子了，但是运行原生安卓4.4.4还是丝滑流畅，一点也不逊色于我的OPPO。&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>欢迎使用 Typecho</title>
+    <link href="http://trili.me/2016/03/03/%E6%AC%A2%E8%BF%8E%E4%BD%BF%E7%94%A8%20Typecho/"/>
+    <id>http://trili.me/2016/03/03/欢迎使用 Typecho/</id>
+    <published>2016-03-02T16:00:00.000Z</published>
+    <updated>2016-04-16T11:39:44.000Z</updated>
+    
+    <content type="html">&lt;p&gt;如果您看到这篇文章,表示您的 blog 已经安装成功.&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;如果您看到这篇文章,表示您的 blog 已经安装成功.&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>你好,2016</title>
+    <link href="http://trili.me/2016/02/02/%E4%BD%A0%E5%A5%BD,2016/"/>
+    <id>http://trili.me/2016/02/02/你好,2016/</id>
+    <published>2016-02-01T16:00:00.000Z</published>
+    <updated>2016-04-16T11:39:16.000Z</updated>
+    
+    <content type="html">&lt;blockquote&gt;
+&lt;p&gt;新的一年又到了,我的NAS服务器的计划看来又得要延期了;x宝卖家回家过年了咋办= =&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;http://trili.me/2016/03/3620626729.png&quot; alt=&quot;硬盘&quot;&gt;&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;img src=&quot;http://trili.me/usr/2016/03/2924517721.png&quot; alt=&quot;UPS&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;春节前的破事&quot;&gt;&lt;a href=&quot;#春节前的破事&quot; class=&quot;headerlink&quot; title=&quot;春节前的破事&quot;&gt;&lt;/a&gt;春节前的破事&lt;/h2&gt;&lt;p&gt;还没过新年表示就已经发生了许多不愉快的事情;错过了物理考试啊,学校放假晚啊,有美术集训啊……&lt;br&gt;是的,这篇文章来的很迟;那是因为昨天刚刚结束美术集训.画了一天的画回到家就感到很累,哪有什么心思再去写文件.= =&lt;br&gt;寒假作业是出乎意料的多,具体有多少见下图&lt;br&gt;&lt;img src=&quot;http://trili.me/usr/2016/03/2849394007.jpg&quot; alt=&quot;作业&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;新一年的祝愿&quot;&gt;&lt;a href=&quot;#新一年的祝愿&quot; class=&quot;headerlink&quot; title=&quot;新一年的祝愿&quot;&gt;&lt;/a&gt;新一年的祝愿&lt;/h2&gt;&lt;p&gt;在2016年中我希望自己能改掉拖延症,目前已经在使用Keep来强迫自己按照计划表来做事.&lt;br&gt;同时希望父母工作顺利,最后祝大家新年快乐!!&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;新的一年又到了,我的NAS服务器的计划看来又得要延期了;x宝卖家回家过年了咋办= =&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;http://trili.me/2016/03/3620626729.png&quot; alt=&quot;硬盘&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Ubuntu Mate 用fcitx框架安装中文谷歌输入法</title>
+    <link href="http://trili.me/2016/01/02/Ubuntu%20Mate%20%E7%94%A8fcitx%E6%A1%86%E6%9E%B6%E5%AE%89%E8%A3%85%E4%B8%AD%E6%96%87%E8%B0%B7%E6%AD%8C%E8%BE%93%E5%85%A5%E6%B3%95/"/>
+    <id>http://trili.me/2016/01/02/Ubuntu Mate 用fcitx框架安装中文谷歌输入法/</id>
+    <published>2016-01-01T16:00:00.000Z</published>
+    <updated>2016-04-16T11:38:56.000Z</updated>
+    
+    <content type="html">&lt;p&gt;刚装完Ubuntu Mate时是默认的输入法是Fcitx，但是并没有提供中文输入。&lt;br&gt;1、先卸载默认安装的ibus(如有安装):&lt;br&gt;&lt;code&gt;sudo apt-get remove ibus&lt;/code&gt;&lt;br&gt;2、如果之前安装过Fcitx，先将其卸载：&lt;br&gt;&lt;code&gt;sudo apt-get remove fcitx*&lt;/code&gt;&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;3、删除依赖库：&lt;br&gt;&lt;code&gt;sudo apt-get autoremove&lt;/code&gt;&lt;br&gt;4、安装谷歌拼音&lt;br&gt;&lt;code&gt;sudo apt-get install fcitx-googlepinyin&lt;/code&gt;&lt;br&gt;5、将谷歌拼音设为默认输入法：&lt;br&gt;&lt;code&gt;sudo im-switch  -s  fcitx -z default&lt;/code&gt;&lt;br&gt;完成后就可以使用了.&lt;br&gt;&lt;img src=&quot;http://trili.me/2016/03/2432730136.jpg&quot; alt=&quot;12-14-59.jpg&quot;&gt;&lt;br&gt;我个人更倾向于fcitx版的google输入法，ibus版的亲测存在输入问题，ubuntu mate默认自带fcitx给点个赞(^^)/&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;刚装完Ubuntu Mate时是默认的输入法是Fcitx，但是并没有提供中文输入。&lt;br&gt;1、先卸载默认安装的ibus(如有安装):&lt;br&gt;&lt;code&gt;sudo apt-get remove ibus&lt;/code&gt;&lt;br&gt;2、如果之前安装过Fcitx，先将其卸载：&lt;br&gt;&lt;code&gt;sudo apt-get remove fcitx*&lt;/code&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>近况-2015-12-26</title>
+    <link href="http://trili.me/2015/12/26/%E8%BF%91%E5%86%B5-2015-12-26/"/>
+    <id>http://trili.me/2015/12/26/近况-2015-12-26/</id>
+    <published>2015-12-25T16:00:00.000Z</published>
+    <updated>2016-04-16T11:38:42.000Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;考试&quot;&gt;&lt;a href=&quot;#考试&quot; class=&quot;headerlink&quot; title=&quot;考试&quot;&gt;&lt;/a&gt;考试&lt;/h2&gt;&lt;p&gt;马上就要期末考了一个月后,据说在期末考之前还要再来次月考，我这也是醉了阿，为毛要来两次考试，合一起多好。&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;物理-amp-化学老师&quot;&gt;&lt;a href=&quot;#物理-amp-化学老师&quot; class=&quot;headerlink&quot; title=&quot;物理&amp;amp;化学老师&quot;&gt;&lt;/a&gt;物理&amp;amp;化学老师&lt;/h2&gt;&lt;p&gt;最近物理和化学老师~更是像打了鸡血一样，疯狂的强调这门课程的重要性，好让我们引起重视认真学习；然而这两老师都是退休了的老院士，平时说话慢吞吞的口齿不清，我开学到现在表示每次上课都是靠自己联想的，问别人也无济于事，因为他们也没听清楚= = 不过按照上次期中考的案例，八成会来次月考，期末考试的答案都可以在月考试卷上找到，so只要背题目就可以了233….&lt;/p&gt;
+&lt;h2 id=&quot;生物老师&quot;&gt;&lt;a href=&quot;#生物老师&quot; class=&quot;headerlink&quot; title=&quot;生物老师&quot;&gt;&lt;/a&gt;生物老师&lt;/h2&gt;&lt;p&gt;就在昨天（圣诞夜前夕），生物老师给我们上了本学期第一节解剖课，在圣诞节前让我们弄这么恶性的东西真的好么 = =&lt;/p&gt;
+&lt;h2 id=&quot;手机刷砖&quot;&gt;&lt;a href=&quot;#手机刷砖&quot; class=&quot;headerlink&quot; title=&quot;手机刷砖&quot;&gt;&lt;/a&gt;手机刷砖&lt;/h2&gt;&lt;p&gt;我的oppo手机在上周被我线刷成砖了，刷到一半电脑死机我也真是醉了，我的人品有这么差么= =还好之前电信局送的那部酷派还能用被我拆开来过；目前这一段时间就只能使用酷派了。这送的手机果然丧心病狂，屏幕屎的跟什么一样，真对得起它359这个价。至于那oppo则是送厂维修去了。&lt;/p&gt;
+&lt;h2 id=&quot;神舟w50t2&quot;&gt;&lt;a href=&quot;#神舟w50t2&quot; class=&quot;headerlink&quot; title=&quot;神舟w50t2&quot;&gt;&lt;/a&gt;神舟w50t2&lt;/h2&gt;&lt;p&gt;由于圣诞的原因，各大购物网站都进行了大促销。我忍不住诱惑，剁手买了部神舟w50t2（299元）鬼知道oppo什么时候才能修好据说这手机的屏幕相当脆。&lt;/p&gt;
+&lt;h2 id=&quot;卡片移动电源&quot;&gt;&lt;a href=&quot;#卡片移动电源&quot; class=&quot;headerlink&quot; title=&quot;卡片移动电源&quot;&gt;&lt;/a&gt;卡片移动电源&lt;/h2&gt;&lt;p&gt;之前买的那个罗马士的移动电源实在不方便，太沉了。这个卡片移动电源轻薄小巧，简直好评。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;祝大家圣诞快乐:)&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;考试&quot;&gt;&lt;a href=&quot;#考试&quot; class=&quot;headerlink&quot; title=&quot;考试&quot;&gt;&lt;/a&gt;考试&lt;/h2&gt;&lt;p&gt;马上就要期末考了一个月后,据说在期末考之前还要再来次月考，我这也是醉了阿，为毛要来两次考试，合一起多好。&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>PHP获取Bing每日图片</title>
+    <link href="http://trili.me/2015/12/25/PHP%E8%8E%B7%E5%8F%96Bing%E6%AF%8F%E6%97%A5%E5%9B%BE%E7%89%87/"/>
+    <id>http://trili.me/2015/12/25/PHP获取Bing每日图片/</id>
+    <published>2015-12-24T16:00:00.000Z</published>
+    <updated>2016-04-16T11:38:22.000Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;微软的Bing搜索引擎首页每天都会提供了一些有趣的图片，这些图片往往是有故事含义的，下载下来容易,拿来作为网页头部是极好的,但是让它与bing首页一样,实现每天变化就是个麻烦事。&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;方法1-获取到的是1366x768的图片&quot;&gt;&lt;a href=&quot;#方法1-获取到的是1366x768的图片&quot; class=&quot;headerlink&quot; title=&quot;方法1.获取到的是1366x768的图片&quot;&gt;&lt;/a&gt;方法1.获取到的是1366x768的图片&lt;/h2&gt;&lt;p&gt;把下面内容保存为以php为后缀的文件，再使用&lt;code&gt;img&lt;/code&gt;标签插入即可。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;?php
+$str=file_get_contents(&amp;apos;http://cn.bing.com/HPImageArchive.aspx?idx=0&amp;amp;n=1&amp;apos;);
+if(preg_match(&amp;quot;/(.+?)&amp;lt;\/url&amp;gt;/ies&amp;quot;,$str,$matches)){
+$imgurl=&amp;apos;http://cn.bing.com&amp;apos;.$matches[1];
+}
+if($imgurl){
+header(&amp;apos;Content-Type: image/JPEG&amp;apos;);
+@ob_end_clean();
+@readfile($imgurl);
+@flush(); @ob_flush();
+exit();
+}else{
+exit(&amp;apos;error&amp;apos;);
+}
+?&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;使用这个方法的好处是可以作为开放API使用，创建一个文件就可以在多个网站里使用；坏处当然也明显，别人可以不经过你的允许就直接调用你的API，造成流量的损失。&lt;/p&gt;
+&lt;h2 id=&quot;方法2-获取到的是1920x1200的图片&quot;&gt;&lt;a href=&quot;#方法2-获取到的是1920x1200的图片&quot; class=&quot;headerlink&quot; title=&quot;方法2.获取到的是1920x1200的图片&quot;&gt;&lt;/a&gt;方法2.获取到的是1920x1200的图片&lt;/h2&gt;&lt;p&gt;以下的代码可直接使用在&lt;code&gt;img&lt;/code&gt;标签里，非常的方便。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;?php
+$str = file_get_contents(&amp;apos;https://cn.bing.com/HPImageArchive.aspx?format=js&amp;amp;idx=0&amp;amp;n=1&amp;apos;);
+$array = json_decode($str);
+$imgurl = $array-&amp;gt;{&amp;quot;images&amp;quot;}[0]-&amp;gt;{&amp;quot;url&amp;quot;};
+echo $imgurl;
+?&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;使用这个方法的好处是当你嫌别人的API太慢而影响你网站的打开速度时（你的空间本身很快），可以此方法（方法1此时同样可用）；或是担心创建API，会消耗过多流量。&lt;/p&gt;
+&lt;h2 id=&quot;注意事项&quot;&gt;&lt;a href=&quot;#注意事项&quot; class=&quot;headerlink&quot; title=&quot;注意事项&quot;&gt;&lt;/a&gt;注意事项&lt;/h2&gt;&lt;p&gt;方法1呈现的直接就是一张图片;而方法2则是用于获取图片的网址。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;微软的Bing搜索引擎首页每天都会提供了一些有趣的图片，这些图片往往是有故事含义的，下载下来容易,拿来作为网页头部是极好的,但是让它与bing首页一样,实现每天变化就是个麻烦事。&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>网易云音乐积分兑换</title>
+    <link href="http://trili.me/2015/12/02/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E7%A7%AF%E5%88%86%E5%85%91%E6%8D%A2/"/>
+    <id>http://trili.me/2015/12/02/网易云音乐积分兑换/</id>
+    <published>2015-12-01T16:00:00.000Z</published>
+    <updated>2016-04-16T11:38:10.000Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;我使用网易云音乐有很长一段时间了，平时听完歌后总不忘去签到，久而久之积攒了不少积分。这次我的茶杯正好摔碎了，就打算试下平时累积的积分。&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;网易简乐杯&quot;&gt;&lt;a href=&quot;#网易简乐杯&quot; class=&quot;headerlink&quot; title=&quot;网易简乐杯&quot;&gt;&lt;/a&gt;网易简乐杯&lt;/h2&gt;&lt;p&gt;【简乐】个性定制变色杯是根据2015年上海音乐节“简单生活”的理念为基础进行创作的，提出“简单生活，快乐多一点”的新生活主张；这也滴滴送礼“more than a gift”的理念不谋而合。简乐杯采用国家环保食用级材质变色杯经过热转印工艺加工而成，遇45°热水就会自然变色；在冷却状态下为黑色。&lt;a href=&quot;http://http://wap.koudaitong.com/v2/showcase/goods?alias=1y8whqjfx4roe&amp;amp;reft=1449754643499_1449754647019&amp;amp;spm=sc3803846_fake3056174_fake3056174&amp;amp;sf=wx_menu&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;购买链接&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;用网易积分兑换出来的是抵用券，再用微信关注滴滴送礼，然后才能购买。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;实物图&quot;&gt;&lt;a href=&quot;#实物图&quot; class=&quot;headerlink&quot; title=&quot;实物图&quot;&gt;&lt;/a&gt;实物图&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://trili.me/2016/03/3156109210.jpg&quot; alt=&quot;变色后&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://trili.me/2016/03/2035556709.jpg&quot; alt=&quot;变色前&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;后记&quot;&gt;&lt;a href=&quot;#后记&quot; class=&quot;headerlink&quot; title=&quot;后记&quot;&gt;&lt;/a&gt;后记&lt;/h2&gt;&lt;p&gt;我等了好久的快递，表示圆通快递就这个尿性。杯子还不错（已使用2周），在此感谢刘小三帮我解决微信支付问题。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;我使用网易云音乐有很长一段时间了，平时听完歌后总不忘去签到，久而久之积攒了不少积分。这次我的茶杯正好摔碎了，就打算试下平时累积的积分。&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Centos 安装 java 8</title>
+    <link href="http://trili.me/2015/11/20/Centos%20%E5%AE%89%E8%A3%85%20java%208/"/>
+    <id>http://trili.me/2015/11/20/Centos 安装 java 8/</id>
+    <published>2015-11-19T16:00:00.000Z</published>
+    <updated>2016-04-16T11:37:48.000Z</updated>
+    
+    <content type="html">&lt;p&gt;在 Centos 安裝 Java 最简单的方法是通过 rpm软件包安装，以下是安装方法。&lt;br&gt;在安装前先看看那系统有没有自带java &lt;code&gt;java -version&lt;/code&gt;&lt;br&gt;如果出现”-bash: java: command not found”则表明系统没有安装java否者则需要使用&lt;code&gt;yum remove java*&lt;/code&gt;命令卸载。&lt;br&gt;我们可以到 &lt;a href=&quot;http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Java SE Development Kit 8 – Downloads&lt;/a&gt;来查看是否有更新版本的的java，在此我安装&lt;strong&gt;8u51&lt;/strong&gt;这版本.&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;strong&gt;32-Bits:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;wget --no-cookies --no-check-certificate --header &amp;quot;Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie&amp;quot; &amp;quot;http://download.oracle.com/otn-pub/java/jdk/8u51-b16/jdk-8u51-linux-i586.rpm&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;64-Bits:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;wget --no-cookies --no-check-certificate --header &amp;quot;Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie&amp;quot; &amp;quot;http://download.oracle.com/otn-pub/java/jdk/8u51-b16/jdk-8u51-linux-x64.rpm&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然後用 rpm 指令安装刚刚下载的Java 8 (JDK 8u51)&lt;br&gt;&lt;strong&gt;32-Bits:&lt;/strong&gt;&lt;br&gt;&lt;code&gt;rpm -ivh jdk-8u45-linux-i586.rpm&lt;/code&gt;&lt;br&gt;&lt;strong&gt;64-Bits:&lt;/strong&gt;&lt;br&gt;&lt;code&gt;rpm -ivh jdk-8u45-linux-x64.rpm&lt;/code&gt;&lt;br&gt;安装完成后我们再次使用&lt;code&gt;java -version&lt;/code&gt;来查看java的版本并且确认是否正常运行。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在 Centos 安裝 Java 最简单的方法是通过 rpm软件包安装，以下是安装方法。&lt;br&gt;在安装前先看看那系统有没有自带java &lt;code&gt;java -version&lt;/code&gt;&lt;br&gt;如果出现”-bash: java: command not found”则表明系统没有安装java否者则需要使用&lt;code&gt;yum remove java*&lt;/code&gt;命令卸载。&lt;br&gt;我们可以到 &lt;a href=&quot;http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html&quot;&gt;Java SE Development Kit 8 – Downloads&lt;/a&gt;来查看是否有更新版本的的java，在此我安装&lt;strong&gt;8u51&lt;/strong&gt;这版本.&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>冬游 2015-11-13</title>
+    <link href="http://trili.me/2015/11/13/%E5%86%AC%E6%B8%B8%202015-11-13/"/>
+    <id>http://trili.me/2015/11/13/冬游 2015-11-13/</id>
+    <published>2015-11-12T16:00:00.000Z</published>
+    <updated>2016-04-16T11:37:34.000Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;昨天还在期中考试，今天就要去冬游；对于学校的这种安排我也是醉了。&lt;br&gt;此次行程上午去邵家楼下午去泰晤士小镇，跟预计的一样，没多大意思，基本上就是到达一个景点，拿出手机拍几张照片然后 就没有然后了 只是一个劲的玩手机。。。&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;旅途照片&quot;&gt;&lt;a href=&quot;#旅途照片&quot; class=&quot;headerlink&quot; title=&quot;旅途照片&quot;&gt;&lt;/a&gt;旅途照片&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://trili.me/2016/03/164447318.jpg&quot; alt=&quot;164447318.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://trili.me/2016/03/2149394370.jpg&quot; alt=&quot;2149394370.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://trili.me/2016/03/1626736892.jpg&quot; alt=&quot;1626736892.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://trili.me/2016/03/1326396207.jpg&quot; alt=&quot;1326396207.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://trili.me/2016/03/3750319938.jpg&quot; alt=&quot;3750319938.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://trili.me/2016/03/180273891.jpg&quot; alt=&quot;180273891.jpg&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;后记&quot;&gt;&lt;a href=&quot;#后记&quot; class=&quot;headerlink&quot; title=&quot;后记&quot;&gt;&lt;/a&gt;后记&lt;/h2&gt;&lt;p&gt;此次旅程很无聊；嗯，真的很无聊。但是，这么无聊的活动还是得要多开展啊。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注：由于博客搬移，部分图片已遗失！&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;昨天还在期中考试，今天就要去冬游；对于学校的这种安排我也是醉了。&lt;br&gt;此次行程上午去邵家楼下午去泰晤士小镇，跟预计的一样，没多大意思，基本上就是到达一个景点，拿出手机拍几张照片然后 就没有然后了 只是一个劲的玩手机。。。&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Ubuntu 安裝 Java 8</title>
+    <link href="http://trili.me/2015/11/10/Ubuntu%20%E5%AE%89%E8%A3%9D%20Java%208/"/>
+    <id>http://trili.me/2015/11/10/Ubuntu 安裝 Java 8/</id>
+    <published>2015-11-09T16:00:00.000Z</published>
+    <updated>2016-04-16T11:37:16.000Z</updated>
+    
+    <content type="html">&lt;p&gt;在 Ubuntu 安裝 Java 最简单的方法是通过 apt-get 安裝, 以下是安装方法。&lt;br&gt;先更新套件索引:&lt;br&gt;&lt;code&gt;sudo add-apt-repository ppa:webupd8team/java&lt;/code&gt;&lt;br&gt;&lt;code&gt;sudo apt-get update&lt;/code&gt;&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;如果无法使用”add-apt-repository”则请查看这篇文章以获得解决方案&lt;a href=&quot;http://trili.me/2016/04/16/%E6%89%BE%E5%9B%9E%E5%A4%B1%E5%8E%BB%E7%9A%84add-apt-repository/&quot;&gt;http://trili.me/2016/04/16/%E6%89%BE%E5%9B%9E%E5%A4%B1%E5%8E%BB%E7%9A%84add-apt-repository/&lt;/a&gt;&lt;br&gt;然後用 apt-get 安裝 Oracle JAVA 8 (JRE):&lt;code&gt;sudo apt-get install oracle-java8-installer&lt;/code&gt;&lt;br&gt;執行以上指令安裝好 Oracle Java 後, 可以用以下指令检查安裝的 Java 版本:&lt;code&gt;java -version&lt;/code&gt;&lt;br&gt;安裝 oracle-java8-set-default 管理 Java 环境变量:&lt;code&gt;sudo apt-get install oracle-java8-set-default&lt;/code&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在 Ubuntu 安裝 Java 最简单的方法是通过 apt-get 安裝, 以下是安装方法。&lt;br&gt;先更新套件索引:&lt;br&gt;&lt;code&gt;sudo add-apt-repository ppa:webupd8team/java&lt;/code&gt;&lt;br&gt;&lt;code&gt;sudo apt-get update&lt;/code&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>素描 2015-11-07</title>
+    <link href="http://trili.me/2015/11/07/%E7%B4%A0%E6%8F%8F%202015-11-07/"/>
+    <id>http://trili.me/2015/11/07/素描 2015-11-07/</id>
+    <published>2015-11-06T16:00:00.000Z</published>
+    <updated>2016-04-16T11:37:02.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://trili.me/2016/03/2455692858.jpg&quot; alt=&quot;茶壶&quot;&gt;&lt;br&gt;很久之前画的茶壶；一直忘记带手机，昨天刚拍的。&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;img src=&quot;http://trili.me/2016/03/1456760334.jpg&quot; alt=&quot;酒杯&quot;&gt;&lt;br&gt;上周的家作，我觉得画的还可以。&lt;br&gt;有好几幅画都因为时间问题没画完，就不贴出来了:-)&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://trili.me/2016/03/2455692858.jpg&quot; alt=&quot;茶壶&quot;&gt;&lt;br&gt;很久之前画的茶壶；一直忘记带手机，昨天刚拍的。&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>找回失去的add-apt-repository</title>
+    <link href="http://trili.me/2015/10/18/%E6%89%BE%E5%9B%9E%E5%A4%B1%E5%8E%BB%E7%9A%84add-apt-repository/"/>
+    <id>http://trili.me/2015/10/18/找回失去的add-apt-repository/</id>
+    <published>2015-10-17T16:00:00.000Z</published>
+    <updated>2016-04-16T11:36:46.000Z</updated>
+    
+    <content type="html">&lt;p&gt;想给VPS添加个PPA，然而大多VPS运营商提供的系统都没有add-apt-repository。。&lt;br&gt;都是精简版系统惹的祸= =&lt;br&gt;&lt;code&gt;apt-get install python-software-properties&lt;/code&gt;&lt;br&gt;&lt;code&gt;apt-get install software-properties-common&lt;/code&gt;&lt;br&gt;然后就能用add-apt-repository来方便快捷的添加PPA了。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;想给VPS添加个PPA，然而大多VPS运营商提供的系统都没有add-apt-repository。。&lt;br&gt;都是精简版系统惹的祸= =&lt;br&gt;&lt;code&gt;apt-get install python-software-properties&lt;/code&gt;&lt;br&gt;&lt;code&gt;a
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
