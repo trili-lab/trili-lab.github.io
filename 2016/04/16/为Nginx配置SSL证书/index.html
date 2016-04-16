@@ -80,21 +80,21 @@
 
 
 
-<meta name="description" content="##前言现在各大站点都开始使用httpss来保证网站的安全，我也不例外。这次我主要讲下如何配置ssl证书并设置自动跳转。
-##证书要配置SSL前当然需要一张证书，我是在淘宝买的6元一年，很便宜的说。">
+<meta name="description" content="前言现在各大站点都开始使用https来保证网站的安全，我也不例外。这次我主要讲下如何配置ssl证书并设置自动跳转。
+证书要配置SSL前当然需要一张证书，我是在淘宝买的6元一年，很便宜的说。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="为Nginx配置SSL证书">
 <meta property="og:url" content="http://trili.me/2016/04/16/为Nginx配置SSL证书/index.html">
 <meta property="og:site_name" content="Trili's Lab">
-<meta property="og:description" content="##前言现在各大站点都开始使用httpss来保证网站的安全，我也不例外。这次我主要讲下如何配置ssl证书并设置自动跳转。
-##证书要配置SSL前当然需要一张证书，我是在淘宝买的6元一年，很便宜的说。">
-<meta property="og:image" content="https://trili.me/2016/03/3840508577.png">
-<meta property="og:updated_time" content="2016-04-16T08:14:44.000Z">
+<meta property="og:description" content="前言现在各大站点都开始使用https来保证网站的安全，我也不例外。这次我主要讲下如何配置ssl证书并设置自动跳转。
+证书要配置SSL前当然需要一张证书，我是在淘宝买的6元一年，很便宜的说。">
+<meta property="og:image" content="http://trili.me/2016/03/3840508577.png">
+<meta property="og:updated_time" content="2016-04-16T10:22:36.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="为Nginx配置SSL证书">
-<meta name="twitter:description" content="##前言现在各大站点都开始使用httpss来保证网站的安全，我也不例外。这次我主要讲下如何配置ssl证书并设置自动跳转。
-##证书要配置SSL前当然需要一张证书，我是在淘宝买的6元一年，很便宜的说。">
-<meta name="twitter:image" content="https://trili.me/2016/03/3840508577.png">
+<meta name="twitter:description" content="前言现在各大站点都开始使用https来保证网站的安全，我也不例外。这次我主要讲下如何配置ssl证书并设置自动跳转。
+证书要配置SSL前当然需要一张证书，我是在淘宝买的6元一年，很便宜的说。">
+<meta name="twitter:image" content="http://trili.me/2016/03/3840508577.png">
 
 
 
@@ -288,25 +288,24 @@
       
 
       
-        <p>##前言<br>现在各大站点都开始使用httpss来保证网站的安全，我也不例外。<br>这次我主要讲下如何配置ssl证书并设置自动跳转。</p>
-<p>##证书<br>要配置SSL前当然需要一张证书，我是在淘宝买的6元一年，很便宜的说。<br><img src="https://trili.me/2016/03/3840508577.png" alt="CA证书"></p>
+        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>现在各大站点都开始使用https来保证网站的安全，我也不例外。<br>这次我主要讲下如何配置ssl证书并设置自动跳转。</p>
+<h2 id="证书"><a href="#证书" class="headerlink" title="证书"></a>证书</h2><p>要配置SSL前当然需要一张证书，我是在淘宝买的6元一年，很便宜的说。<br><img src="http://trili.me/2016/03/3840508577.png" alt="CA证书"></p>
 <a id="more"></a>
-<p>购买地址：httpss://item.taobao.com/item.htm?spm=a1z09.2.0.0.JvzwVQ&amp;id=15823207240&amp;_u=51qc251f8395</p>
-<p>##开启SSL支持</p>
-<blockquote>
+<p>购买地址：<a href="https://item.taobao.com/item.htm?spm=a1z09.2.0.0.JvzwVQ&amp;id=15823207240&amp;_u=51qc251f8395" target="_blank" rel="external">https://item.taobao.com/item.htm?spm=a1z09.2.0.0.JvzwVQ&amp;id=15823207240&amp;_u=51qc251f8395</a></p>
+<h2 id="开启SSL支持"><a href="#开启SSL支持" class="headerlink" title="开启SSL支持"></a>开启SSL支持</h2><blockquote>
 <p>我以Nginx的默认文件为例</p>
 </blockquote>
 <p><code>nano /etc/nginx/sites-available/default</code><br>在server{}之间添加以下内容</p>
 <pre><code>ssl on;
 ssl_certificate .crt文件路径;
 ssl_certificate_key .key文件路径;
-</code></pre><p>##自动跳转到https<br>将以下内容粘贴到原本的server{}之前</p>
+</code></pre><h2 id="自动跳转到http"><a href="#自动跳转到http" class="headerlink" title="自动跳转到http"></a>自动跳转到http</h2><p>将以下内容粘贴到原本的server{}之前</p>
 <pre><code>server {
 server_name 你的网址;
-rewrite ^(.*)$ httpss://$host$1 permanent;
+rewrite ^(.*)$ https://$host$1 permanent;
 }
 </code></pre><p>重启nginx <code>service nginx restart</code></p>
-<p>##结语<br>配置SSL是比较简单的，按照教程来就可以实现，有任何不懂的地方可以给我留言。<br>顺便说下Nginx需要自己把中继证书中的内容粘贴到.crt文件，否则在手机上访问会出现证书问题</p>
+<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>配置SSL是比较简单的，按照教程来就可以实现，有任何不懂的地方可以给我留言。<br>顺便说下Nginx需要自己把中继证书中的内容粘贴到.crt文件，否则在手机上访问会出现证书问题</p>
 
       
     </div>
@@ -338,8 +337,8 @@ rewrite ^(.*)$ httpss://$host$1 permanent;
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2016/04/16/素描 2015-11-07/" rel="prev" title="素描 2015-11-07">
-                素描 2015-11-07 <i class="fa fa-chevron-right"></i>
+              <a href="/2016/04/16/找回失去的add-apt-repository/" rel="prev" title="找回失去的add-apt-repository">
+                找回失去的add-apt-repository <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -447,7 +446,7 @@ rewrite ^(.*)$ httpss://$host$1 permanent;
               
             
             
-              <p class="post-toc-empty">此文章未包含目录</p>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#证书"><span class="nav-number">2.</span> <span class="nav-text">证书</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#开启SSL支持"><span class="nav-number">3.</span> <span class="nav-text">开启SSL支持</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#自动跳转到http"><span class="nav-number">4.</span> <span class="nav-text">自动跳转到http</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#结语"><span class="nav-number">5.</span> <span class="nav-text">结语</span></a></li></ol></div>
             
           </div>
         </section>

@@ -80,16 +80,16 @@
 
 
 
-<meta name="description" content="##前言Ghost是一款简洁的、功能强大的基于 Node.js 的博客程序，创始人的目标就是替代臃肿膨大的WordPress成为最流行的写作程序。按照这篇文章，你只需要一台运行内存&amp;gt;=512m运行内存的VPS(经测试128m内存vps也可以流畅运行)，即可快速搭建出属于你自己的博客。">
+<meta name="description" content="前言Ghost是一款简洁的、功能强大的基于 Node.js 的博客程序，创始人的目标就是替代臃肿膨大的WordPress成为最流行的写作程序。按照这篇文章，你只需要一台运行内存&amp;gt;=512m运行内存的VPS(经测试128m内存vps也可以流畅运行)，即可快速搭建出属于你自己的博客。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Ubuntu搭建Ghost博客">
 <meta property="og:url" content="http://trili.me/2016/04/16/Ubuntu搭建Ghost博客/index.html">
 <meta property="og:site_name" content="Trili's Lab">
-<meta property="og:description" content="##前言Ghost是一款简洁的、功能强大的基于 Node.js 的博客程序，创始人的目标就是替代臃肿膨大的WordPress成为最流行的写作程序。按照这篇文章，你只需要一台运行内存&amp;gt;=512m运行内存的VPS(经测试128m内存vps也可以流畅运行)，即可快速搭建出属于你自己的博客。">
-<meta property="og:updated_time" content="2016-04-16T08:13:42.000Z">
+<meta property="og:description" content="前言Ghost是一款简洁的、功能强大的基于 Node.js 的博客程序，创始人的目标就是替代臃肿膨大的WordPress成为最流行的写作程序。按照这篇文章，你只需要一台运行内存&amp;gt;=512m运行内存的VPS(经测试128m内存vps也可以流畅运行)，即可快速搭建出属于你自己的博客。">
+<meta property="og:updated_time" content="2016-04-16T10:22:36.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Ubuntu搭建Ghost博客">
-<meta name="twitter:description" content="##前言Ghost是一款简洁的、功能强大的基于 Node.js 的博客程序，创始人的目标就是替代臃肿膨大的WordPress成为最流行的写作程序。按照这篇文章，你只需要一台运行内存&amp;gt;=512m运行内存的VPS(经测试128m内存vps也可以流畅运行)，即可快速搭建出属于你自己的博客。">
+<meta name="twitter:description" content="前言Ghost是一款简洁的、功能强大的基于 Node.js 的博客程序，创始人的目标就是替代臃肿膨大的WordPress成为最流行的写作程序。按照这篇文章，你只需要一台运行内存&amp;gt;=512m运行内存的VPS(经测试128m内存vps也可以流畅运行)，即可快速搭建出属于你自己的博客。">
 
 
 
@@ -283,25 +283,25 @@
       
 
       
-        <p>##前言<br>Ghost是一款简洁的、功能强大的基于 Node.js 的博客程序，创始人的目标就是替代臃肿膨大的WordPress成为最流行的写作程序。<br>按照这篇文章，你只需要一台运行内存&gt;=512m运行内存的VPS(经测试128m内存vps也可以流畅运行)，即可快速搭建出属于你自己的博客。</p>
+        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Ghost是一款简洁的、功能强大的基于 Node.js 的博客程序，创始人的目标就是替代臃肿膨大的WordPress成为最流行的写作程序。<br>按照这篇文章，你只需要一台运行内存&gt;=512m运行内存的VPS(经测试128m内存vps也可以流畅运行)，即可快速搭建出属于你自己的博客。</p>
 <a id="more"></a>
 <blockquote>
 <p>本文使用的是512m内存运行ubuntu 14.04 X64的VPS</p>
 </blockquote>
-<p>##安装 Node.js<br><code>curl -sL httpss://deb.nodesource.com/setup</code><br>导入完PPA以后即可安装 Node.js和NPM <code>apt-get install nodejs  apt-get install npm</code><br>为防止某些程序不能运行，单独安装<strong>build-essentials</strong>(可能会自带)<br><code>apt-get install build-essential</code></p>
+<h2 id="安装-Node-js"><a href="#安装-Node-js" class="headerlink" title="安装 Node.js"></a>安装 Node.js</h2><p><code>curl -sL https://deb.nodesource.com/setup</code><br>导入完PPA以后即可安装 Node.js和NPM <code>apt-get install nodejs  apt-get install npm</code><br>为防止某些程序不能运行，单独安装<strong>build-essentials</strong>(可能会自带)<br><code>apt-get install build-essential</code></p>
 <blockquote>
 <p>运行Node.JS的时候请一定要注意，因为与别的工具包相冲突的原因，Ubuntu仓库中可执行的名字是nodejs而不是node。</p>
 </blockquote>
 <p>所以我们需要自己创建软连接，否者后续的安装无法继续<br><code>ln -s /usr/bin/nodejs /usr/bin/node</code></p>
-<p>##准备Ghost文件<br>建立安装目录 <code>mkdir /home/Ghost  cd /home/Ghost</code><br><code>curl -L https://ghost.org/zip/ghost-latest.zip</code><br><code>unzip ghost-latest.zip</code><br>至此Ghost所需的环境和安装文件都已经准备完成了。</p>
-<p>##安装Ghost<br><code>npm install --production</code><br>尝试在开发者模式下运行<code>npm start</code><br>由于我们是安装在VPS，所以并不能通过<a href="https://127.0.0.1:2368/" target="_blank" rel="external">https://127.0.0.1:2368/</a> 来查看网页<br>现在来修改下Ghost的配置文件<code>nano config.js</code>更换url: ‘<a href="https://my-ghost-blog.com" target="_blank" rel="external">https://my-ghost-blog.com</a>‘, 为你自己的域名.</p>
-<p>##使用Forever托管Ghost<br>安装 forever <code>npm install forever -g</code><br>运行 Ghost <code>NODE_ENV=production forever start index.js</code></p>
-<p>##使用Nginx反向代理Ghost<br>增加PPA <code>add-apt-repository ppa:nginx/stable</code><br><code>apt-get update</code>(视情况而定，默认不需要)<br>安装Nginx <code>apt-get install nginx-extras</code><br>修改Nginx的默认文件<code>nano /etc/nginx/sites-available/default</code>使用以下内容替换server{…}内的所有数据</p>
+<h2 id="准备Ghost文件"><a href="#准备Ghost文件" class="headerlink" title="准备Ghost文件"></a>准备Ghost文件</h2><p>建立安装目录 <code>mkdir /home/Ghost  cd /home/Ghost</code><br><code>curl -L http://ghost.org/zip/ghost-latest.zip</code><br><code>unzip ghost-latest.zip</code><br>至此Ghost所需的环境和安装文件都已经准备完成了。</p>
+<h2 id="安装Ghost"><a href="#安装Ghost" class="headerlink" title="安装Ghost"></a>安装Ghost</h2><p><code>npm install --production</code><br>尝试在开发者模式下运行<code>npm start</code><br>由于我们是安装在VPS，所以并不能通过<a href="http://127.0.0.1:2368/" target="_blank" rel="external">http://127.0.0.1:2368/</a> 来查看网页<br>现在来修改下Ghost的配置文件<code>nano config.js</code>更换url: ‘<a href="http://my-ghost-blog.com" target="_blank" rel="external">http://my-ghost-blog.com</a>‘, 为你自己的域名.</p>
+<h2 id="使用Forever托管Ghost"><a href="#使用Forever托管Ghost" class="headerlink" title="使用Forever托管Ghost"></a>使用Forever托管Ghost</h2><p>安装 forever <code>npm install forever -g</code><br>运行 Ghost <code>NODE_ENV=production forever start index.js</code></p>
+<h2 id="使用Nginx反向代理Ghost"><a href="#使用Nginx反向代理Ghost" class="headerlink" title="使用Nginx反向代理Ghost"></a>使用Nginx反向代理Ghost</h2><p>增加PPA <code>add-apt-repository ppa:nginx/stable</code><br><code>apt-get update</code>(视情况而定，默认不需要)<br>安装Nginx <code>apt-get install nginx-extras</code><br>修改Nginx的默认文件<code>nano /etc/nginx/sites-available/default</code>使用以下内容替换server{…}内的所有数据</p>
 <pre><code>location / {
     proxy_set_header X-Real-IP  $remote_addr;
     proxy_set_header X-Forwarded-For $remote_addr;
     proxy_set_header Host $host;
-    proxy_pass https://127.0.0.1:2368;
+    proxy_pass http://127.0.0.1:2368;
 }
 
 location ~* \.(?:ico|css|js|gif|jpe?g|png|ttf|woff)$ {
@@ -309,7 +309,7 @@ location ~* \.(?:ico|css|js|gif|jpe?g|png|ttf|woff)$ {
     expires 30d;
     add_header Pragma public;
     add_header Cache-Control &quot;public, mustrevalidate, proxy-revalidate&quot;;
-    proxy_pass https://127.0.0.1:2368;
+    proxy_pass http://127.0.0.1:2368;
 }
 
 location = /robots.txt { access_log off; log_not_found off; }
@@ -459,7 +459,7 @@ location ~ /\.ht {
               
             
             
-              <p class="post-toc-empty">此文章未包含目录</p>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装-Node-js"><span class="nav-number">2.</span> <span class="nav-text">安装 Node.js</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#准备Ghost文件"><span class="nav-number">3.</span> <span class="nav-text">准备Ghost文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装Ghost"><span class="nav-number">4.</span> <span class="nav-text">安装Ghost</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用Forever托管Ghost"><span class="nav-number">5.</span> <span class="nav-text">使用Forever托管Ghost</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用Nginx反向代理Ghost"><span class="nav-number">6.</span> <span class="nav-text">使用Nginx反向代理Ghost</span></a></li></ol></div>
             
           </div>
         </section>

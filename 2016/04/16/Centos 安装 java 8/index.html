@@ -86,7 +86,7 @@
 <meta property="og:url" content="http://trili.me/2016/04/16/Centos 安装 java 8/index.html">
 <meta property="og:site_name" content="Trili's Lab">
 <meta property="og:description" content="在 Centos 安裝 Java 最简单的方法是通过 rpm软件包安装，以下是安装方法。在安装前先看看那系统有没有自带java java -version如果出现”-bash: java: command not found”则表明系统没有安装java否者则需要使用yum remove java*命令卸载。我们可以到 Java SE Development Kit 8 – Downloads来查看">
-<meta property="og:updated_time" content="2016-04-16T08:17:40.000Z">
+<meta property="og:updated_time" content="2016-04-16T10:22:36.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Centos 安装 java 8">
 <meta name="twitter:description" content="在 Centos 安裝 Java 最简单的方法是通过 rpm软件包安装，以下是安装方法。在安装前先看看那系统有没有自带java java -version如果出现”-bash: java: command not found”则表明系统没有安装java否者则需要使用yum remove java*命令卸载。我们可以到 Java SE Development Kit 8 – Downloads来查看">
@@ -283,12 +283,12 @@
       
 
       
-        <p>在 Centos 安裝 Java 最简单的方法是通过 rpm软件包安装，以下是安装方法。<br>在安装前先看看那系统有没有自带java <code>java -version</code><br>如果出现”-bash: java: command not found”则表明系统没有安装java否者则需要使用<code>yum remove java*</code>命令卸载。<br>我们可以到 <a href="https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank" rel="external">Java SE Development Kit 8 – Downloads</a>来查看是否有更新版本的的java，在此我安装<strong>8u51</strong>这版本.</p>
+        <p>在 Centos 安裝 Java 最简单的方法是通过 rpm软件包安装，以下是安装方法。<br>在安装前先看看那系统有没有自带java <code>java -version</code><br>如果出现”-bash: java: command not found”则表明系统没有安装java否者则需要使用<code>yum remove java*</code>命令卸载。<br>我们可以到 <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank" rel="external">Java SE Development Kit 8 – Downloads</a>来查看是否有更新版本的的java，在此我安装<strong>8u51</strong>这版本.</p>
 <a id="more"></a>
 <p><strong>32-Bits:</strong></p>
-<pre><code>wget --no-cookies --no-check-certificate --header &quot;Cookie: gpw_e24=https%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie&quot; &quot;https://download.oracle.com/otn-pub/java/jdk/8u51-b16/jdk-8u51-linux-i586.rpm&quot;
+<pre><code>wget --no-cookies --no-check-certificate --header &quot;Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie&quot; &quot;http://download.oracle.com/otn-pub/java/jdk/8u51-b16/jdk-8u51-linux-i586.rpm&quot;
 </code></pre><p><strong>64-Bits:</strong></p>
-<pre><code>wget --no-cookies --no-check-certificate --header &quot;Cookie: gpw_e24=https%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie&quot; &quot;https://download.oracle.com/otn-pub/java/jdk/8u51-b16/jdk-8u51-linux-x64.rpm&quot;
+<pre><code>wget --no-cookies --no-check-certificate --header &quot;Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie&quot; &quot;http://download.oracle.com/otn-pub/java/jdk/8u51-b16/jdk-8u51-linux-x64.rpm&quot;
 </code></pre><p>然後用 rpm 指令安装刚刚下载的Java 8 (JDK 8u51)<br><strong>32-Bits:</strong><br><code>rpm -ivh jdk-8u45-linux-i586.rpm</code><br><strong>64-Bits:</strong><br><code>rpm -ivh jdk-8u45-linux-x64.rpm</code><br>安装完成后我们再次使用<code>java -version</code>来查看java的版本并且确认是否正常运行。</p>
 
       

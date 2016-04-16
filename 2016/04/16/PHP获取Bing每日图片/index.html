@@ -80,16 +80,16 @@
 
 
 
-<meta name="description" content="##前言微软的Bing搜索引擎首页每天都会提供了一些有趣的图片，这些图片往往是有故事含义的，下载下来容易,拿来作为网页头部是极好的,但是让它与bing首页一样,实现每天变化就是个麻烦事。">
+<meta name="description" content="前言微软的Bing搜索引擎首页每天都会提供了一些有趣的图片，这些图片往往是有故事含义的，下载下来容易,拿来作为网页头部是极好的,但是让它与bing首页一样,实现每天变化就是个麻烦事。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="PHP获取Bing每日图片">
 <meta property="og:url" content="http://trili.me/2016/04/16/PHP获取Bing每日图片/index.html">
 <meta property="og:site_name" content="Trili's Lab">
-<meta property="og:description" content="##前言微软的Bing搜索引擎首页每天都会提供了一些有趣的图片，这些图片往往是有故事含义的，下载下来容易,拿来作为网页头部是极好的,但是让它与bing首页一样,实现每天变化就是个麻烦事。">
-<meta property="og:updated_time" content="2016-04-16T08:19:10.000Z">
+<meta property="og:description" content="前言微软的Bing搜索引擎首页每天都会提供了一些有趣的图片，这些图片往往是有故事含义的，下载下来容易,拿来作为网页头部是极好的,但是让它与bing首页一样,实现每天变化就是个麻烦事。">
+<meta property="og:updated_time" content="2016-04-16T10:22:36.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="PHP获取Bing每日图片">
-<meta name="twitter:description" content="##前言微软的Bing搜索引擎首页每天都会提供了一些有趣的图片，这些图片往往是有故事含义的，下载下来容易,拿来作为网页头部是极好的,但是让它与bing首页一样,实现每天变化就是个麻烦事。">
+<meta name="twitter:description" content="前言微软的Bing搜索引擎首页每天都会提供了一些有趣的图片，这些图片往往是有故事含义的，下载下来容易,拿来作为网页头部是极好的,但是让它与bing首页一样,实现每天变化就是个麻烦事。">
 
 
 
@@ -283,13 +283,13 @@
       
 
       
-        <p>##前言<br>微软的Bing搜索引擎首页每天都会提供了一些有趣的图片，这些图片往往是有故事含义的，下载下来容易,拿来作为网页头部是极好的,但是让它与bing首页一样,实现每天变化就是个麻烦事。</p>
+        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>微软的Bing搜索引擎首页每天都会提供了一些有趣的图片，这些图片往往是有故事含义的，下载下来容易,拿来作为网页头部是极好的,但是让它与bing首页一样,实现每天变化就是个麻烦事。</p>
 <a id="more"></a>
-<p>&lt;##方法1.获取到的是1366x768的图片<br>把下面内容保存为以php为后缀的文件，再使用<code>img</code>标签插入即可。</p>
+<h2 id="方法1-获取到的是1366x768的图片"><a href="#方法1-获取到的是1366x768的图片" class="headerlink" title="方法1.获取到的是1366x768的图片"></a>方法1.获取到的是1366x768的图片</h2><p>把下面内容保存为以php为后缀的文件，再使用<code>img</code>标签插入即可。</p>
 <pre><code>&lt;?php
-$str=file_get_contents(&apos;https://cn.bing.com/HPImageArchive.aspx?idx=0&amp;n=1&apos;);
+$str=file_get_contents(&apos;http://cn.bing.com/HPImageArchive.aspx?idx=0&amp;n=1&apos;);
 if(preg_match(&quot;/(.+?)&lt;\/url&gt;/ies&quot;,$str,$matches)){
-$imgurl=&apos;https://cn.bing.com&apos;.$matches[1];
+$imgurl=&apos;http://cn.bing.com&apos;.$matches[1];
 }
 if($imgurl){
 header(&apos;Content-Type: image/JPEG&apos;);
@@ -301,16 +301,16 @@ exit();
 exit(&apos;error&apos;);
 }
 ?&gt;
-</code></pre><p>使用这个方法的好处是可以作为开放API使用，创建一个文件就可以在多个网站里使用；坏处当然也明显，别人可以不经过你的允许就直接调用你的API，造成流量的损失。<br>&lt;##方法2.获取到的是1920x1200的图片<br>以下的代码可直接使用在<code>img</code>标签里，非常的方便。</p>
+</code></pre><p>使用这个方法的好处是可以作为开放API使用，创建一个文件就可以在多个网站里使用；坏处当然也明显，别人可以不经过你的允许就直接调用你的API，造成流量的损失。</p>
+<h2 id="方法2-获取到的是1920x1200的图片"><a href="#方法2-获取到的是1920x1200的图片" class="headerlink" title="方法2.获取到的是1920x1200的图片"></a>方法2.获取到的是1920x1200的图片</h2><p>以下的代码可直接使用在<code>img</code>标签里，非常的方便。</p>
 <pre><code>&lt;?php
-$str = file_get_contents(&apos;httpss://cn.bing.com/HPImageArchive.aspx?format=js&amp;idx=0&amp;n=1&apos;);
+$str = file_get_contents(&apos;https://cn.bing.com/HPImageArchive.aspx?format=js&amp;idx=0&amp;n=1&apos;);
 $array = json_decode($str);
 $imgurl = $array-&gt;{&quot;images&quot;}[0]-&gt;{&quot;url&quot;};
 echo $imgurl;
 ?&gt;
 </code></pre><p>使用这个方法的好处是当你嫌别人的API太慢而影响你网站的打开速度时（你的空间本身很快），可以此方法（方法1此时同样可用）；或是担心创建API，会消耗过多流量。</p>
-<p>##注意事项<br>方法1呈现的直接就是一张图片;而方法2则是用于获取图片的网址。</p>
-<p>##相关下载##<br>PHP文件<a href="https://cloud.trili.me/index.php/s/l0vIXGvkls85mG3" target="_blank" rel="external">下载</a></p>
+<h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><p>方法1呈现的直接就是一张图片;而方法2则是用于获取图片的网址。</p>
 
       
     </div>
@@ -451,7 +451,7 @@ echo $imgurl;
               
             
             
-              <p class="post-toc-empty">此文章未包含目录</p>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#方法1-获取到的是1366x768的图片"><span class="nav-number">2.</span> <span class="nav-text">方法1.获取到的是1366x768的图片</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#方法2-获取到的是1920x1200的图片"><span class="nav-number">3.</span> <span class="nav-text">方法2.获取到的是1920x1200的图片</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#注意事项"><span class="nav-number">4.</span> <span class="nav-text">注意事项</span></a></li></ol></div>
             
           </div>
         </section>

@@ -86,7 +86,7 @@
 <meta property="og:url" content="http://trili.me/2016/04/16/树梅派运行PocketMine-MP/index.html">
 <meta property="og:site_name" content="Trili's Lab">
 <meta property="og:description" content="前几日，我突发奇想，想与好友们一起玩MCPE(手机版MC)。本来是将PocketMine-MP安装在一台搬瓦工的VPS上，由于GFW的缘故，游戏界面一卡一卡的；十分不爽。 正好我的树梅派一直在角落里积灰，便打算把PocketMine-MP安装在树梅派上。 考虑到树梅派使用的是SD卡，由于长期频繁读写易报废的缘故；我特意把系统运行在了U盘中。">
-<meta property="og:updated_time" content="2016-04-16T07:52:22.000Z">
+<meta property="og:updated_time" content="2016-04-16T10:22:36.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="树梅派运行PocketMine-MP">
 <meta name="twitter:description" content="前几日，我突发奇想，想与好友们一起玩MCPE(手机版MC)。本来是将PocketMine-MP安装在一台搬瓦工的VPS上，由于GFW的缘故，游戏界面一卡一卡的；十分不爽。 正好我的树梅派一直在角落里积灰，便打算把PocketMine-MP安装在树梅派上。 考虑到树梅派使用的是SD卡，由于长期频繁读写易报废的缘故；我特意把系统运行在了U盘中。">
@@ -285,7 +285,7 @@
       
         <p>前几日，我突发奇想，想与好友们一起玩MCPE(手机版MC)。本来是将PocketMine-MP安装在一台搬瓦工的VPS上，由于GFW的缘故，游戏界面一卡一卡的；十分不爽。 正好我的树梅派一直在角落里积灰，便打算把PocketMine-MP安装在树梅派上。 考虑到树梅派使用的是SD卡，由于长期频繁读写易报废的缘故；我特意把系统运行在了U盘中。</p>
 <a id="more"></a>
-<p>1.在树梅派的pi用户中，新建立个文件夹。<code>pi@raspberrypi ~ $ makedir MCPE</code><br>进入文件夹 <code>pi@raspberrypi ~ $ cd MCPE</code><br>2.下载安装文件<code>wget -q -O - https://get.pocketmine.net/ | bash</code><br><strong>注意：你需要自行安装perl, gcc, make, automake, libtool, autoconf和m4.</strong><br>3.打开网站 <a href="https://sourceforge.net/projects/pocketmine/files/builds/" target="_blank" rel="external">https://sourceforge.net/projects/pocketmine/files/builds/</a> 下载PHP5.6.4ARMRaspbianhard.tar.gz<br>4.用下载好的文件替换原先的bin文件夹<br>5.在终端里输入<code>./start.sh</code>记得用<code>screen -Ｓ</code>挂起<br>至此安装已经完成了，这样安装是可以完美解决安装时出现让人摸不着头脑的PHP错误；并且同样适用于装在vps里，可以解决在除centos系统中出现的PHP错误。<br>感受：安装的过程是挺简单的，会使用linux系统的应该都可以明白。<br>此外，感谢那位外国朋友(<strong>mackney</strong>)，他的博客给了我莫大的帮助</p>
+<p>1.在树梅派的pi用户中，新建立个文件夹。<code>pi@raspberrypi ~ $ makedir MCPE</code><br>进入文件夹 <code>pi@raspberrypi ~ $ cd MCPE</code><br>2.下载安装文件<code>wget -q -O - http://get.pocketmine.net/ | bash</code><br><strong>注意：你需要自行安装perl, gcc, make, automake, libtool, autoconf和m4.</strong><br>3.打开网站 <a href="http://sourceforge.net/projects/pocketmine/files/builds/" target="_blank" rel="external">http://sourceforge.net/projects/pocketmine/files/builds/</a> 下载PHP5.6.4ARMRaspbianhard.tar.gz<br>4.用下载好的文件替换原先的bin文件夹<br>5.在终端里输入<code>./start.sh</code>记得用<code>screen -Ｓ</code>挂起<br>至此安装已经完成了，这样安装是可以完美解决安装时出现让人摸不着头脑的PHP错误；并且同样适用于装在vps里，可以解决在除centos系统中出现的PHP错误。<br>感受：安装的过程是挺简单的，会使用linux系统的应该都可以明白。<br>此外，感谢那位外国朋友(<strong>mackney</strong>)，他的博客给了我莫大的帮助</p>
 
       
     </div>

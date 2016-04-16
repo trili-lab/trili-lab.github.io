@@ -80,20 +80,20 @@
 
 
 
-<meta name="description" content="##前言Node.js 是一个强大的javascript库，Ghost,Hexo等博客程序都基于它。虽然树莓派基于arm架构但是安装起来与x86平台却不相类似。">
+<meta name="description" content="前言Node.js 是一个强大的javascript库，Ghost,Hexo等博客程序都基于它。虽然树莓派基于arm架构但是安装起来与x86平台却不相类似。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="树莓派里安装Node.js 4.2.0">
 <meta property="og:url" content="http://trili.me/2016/04/16/树莓派里安装Node.js 4.2.0/index.html">
 <meta property="og:site_name" content="Trili's Lab">
-<meta property="og:description" content="##前言Node.js 是一个强大的javascript库，Ghost,Hexo等博客程序都基于它。虽然树莓派基于arm架构但是安装起来与x86平台却不相类似。">
-<meta property="og:image" content="https://trili.me/2016/03/3295953148.jpg">
-<meta property="og:image" content="https://trili.me/2016/03/662604304.jpg">
-<meta property="og:image" content="https://trili.me/2016/03/64718202.jpg">
-<meta property="og:updated_time" content="2016-04-16T08:13:10.000Z">
+<meta property="og:description" content="前言Node.js 是一个强大的javascript库，Ghost,Hexo等博客程序都基于它。虽然树莓派基于arm架构但是安装起来与x86平台却不相类似。">
+<meta property="og:image" content="http://trili.me/2016/03/3295953148.jpg">
+<meta property="og:image" content="http://trili.me/2016/03/662604304.jpg">
+<meta property="og:image" content="http://trili.me/2016/03/64718202.jpg">
+<meta property="og:updated_time" content="2016-04-16T10:23:44.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="树莓派里安装Node.js 4.2.0">
-<meta name="twitter:description" content="##前言Node.js 是一个强大的javascript库，Ghost,Hexo等博客程序都基于它。虽然树莓派基于arm架构但是安装起来与x86平台却不相类似。">
-<meta name="twitter:image" content="https://trili.me/2016/03/3295953148.jpg">
+<meta name="twitter:description" content="前言Node.js 是一个强大的javascript库，Ghost,Hexo等博客程序都基于它。虽然树莓派基于arm架构但是安装起来与x86平台却不相类似。">
+<meta name="twitter:image" content="http://trili.me/2016/03/3295953148.jpg">
 
 
 
@@ -287,15 +287,15 @@
       
 
       
-        <p>##前言<br>Node.js 是一个强大的javascript库，Ghost,Hexo等博客程序都基于它。虽然树莓派基于arm架构但是安装起来与x86平台却不相类似。</p>
+        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Node.js 是一个强大的javascript库，Ghost,Hexo等博客程序都基于它。虽然树莓派基于arm架构但是安装起来与x86平台却不相类似。</p>
 <a id="more"></a>
-<p>##安装 Node.js &amp; npm<br>我原本打算使用软件包的方式来安装，但是在安装npm的时候却发生了错误，于是使用源码的形式来安装。<br><code>wget -N https://nodejs.org/dist/node-latest.tar.gz</code><br><img src="https://trili.me/2016/03/3295953148.jpg" alt="下载"><br>创建目录并解压缩安装文件<br><code>mkdir Ghost</code><br><code>tar xzvf node-latest.tar.gz</code><br><code>cd Ghost</code></p>
+<h2 id="安装-Node-js-amp-npm"><a href="#安装-Node-js-amp-npm" class="headerlink" title="安装 Node.js &amp; npm"></a>安装 Node.js &amp; npm</h2><p>我原本打算使用软件包的方式来安装，但是在安装npm的时候却发生了错误，于是使用源码的形式来安装。<br><code>wget -N http://nodejs.org/dist/node-latest.tar.gz</code><br><img src="http://trili.me/2016/03/3295953148.jpg" alt="下载"><br>创建目录并解压缩安装文件<br><code>mkdir Ghost</code><br><code>tar xzvf node-latest.tar.gz</code><br><code>cd Ghost</code></p>
 <blockquote>
 <p>考虑到树莓派的性能，编译起码要2小时左右，于是打算使用screen挂起</p>
 </blockquote>
 <p><code>screen -S node.js</code></p>
-<p>开始漫长的编译阶段<code>./configure``sudo make</code><br>这步需要很长的时间2H左右，输入 <strong>ctrl a+d</strong> 明智的选择挂起，然后就可以断开SSH连接，去做别的事。<br>过了很长时间后，使用<code>screen —r</code>切换到之前被挂起的进程，继续完成下一步骤<br><code>sudo install</code><br><strong>这里一定要加上sudo，要不然会发生以下错误</strong><br><img src="https://trili.me/2016/03/662604304.jpg" alt="错误"><br>在成功安装后可以使用<code>node-v</code>来查看版本号<br><img src="https://trili.me/2016/03/64718202.jpg" alt="版本号"></p>
-<p></p><h2>总结</h2><br>至此node.js已经安装完成了，总体安装并没有什么难度，就是源码安装所花的时间有点长。。。。。。<p></p>
+<p>开始漫长的编译阶段<code>./configure``sudo make</code><br>这步需要很长的时间2H左右，输入 <strong>ctrl a+d</strong> 明智的选择挂起，然后就可以断开SSH连接，去做别的事。<br>过了很长时间后，使用<code>screen —r</code>切换到之前被挂起的进程，继续完成下一步骤<br><code>sudo install</code><br><strong>这里一定要加上sudo，要不然会发生以下错误</strong><br><img src="http://trili.me/2016/03/662604304.jpg" alt="错误"><br>在成功安装后可以使用<code>node-v</code>来查看版本号<br><img src="http://trili.me/2016/03/64718202.jpg" alt="版本号"></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>至此node.js已经安装完成了，总体安装并没有什么难度，就是源码安装所花的时间有点长。。。。。。</p>
 
       
     </div>
@@ -436,7 +436,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">1.</span> <span class="nav-text">总结</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装-Node-js-amp-npm"><span class="nav-number">2.</span> <span class="nav-text">安装 Node.js & npm</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#总结"><span class="nav-number">3.</span> <span class="nav-text">总结</span></a></li></ol></div>
             
           </div>
         </section>
