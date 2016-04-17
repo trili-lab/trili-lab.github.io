@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next mist use-motion">
+<html class="theme-next pisces use-motion">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -64,7 +64,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT, Trili" />
+  <meta name="keywords" content="Java 8,Ubuntu," />
 
 
 
@@ -88,7 +88,7 @@
 <meta property="og:url" content="http://trili.me/2015/11/10/Ubuntu 安裝 Java 8/index.html">
 <meta property="og:site_name" content="Trili's Lab">
 <meta property="og:description" content="在 Ubuntu 安裝 Java 最简单的方法是通过 apt-get 安裝, 以下是安装方法。先更新套件索引:sudo add-apt-repository ppa:webupd8team/javasudo apt-get update">
-<meta property="og:updated_time" content="2016-04-16T11:37:16.000Z">
+<meta property="og:updated_time" content="2016-04-17T10:02:36.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Ubuntu 安裝 Java 8">
 <meta name="twitter:description" content="在 Ubuntu 安裝 Java 最简单的方法是通过 apt-get 安裝, 以下是安装方法。先更新套件索引:sudo add-apt-repository ppa:webupd8team/javasudo apt-get update">
@@ -98,7 +98,7 @@
 <script type="text/javascript" id="hexo.configuration">
   var NexT = window.NexT || {};
   var CONFIG = {
-    scheme: 'Mist',
+    scheme: 'Pisces',
     sidebar: {"position":"left","display":"post"},
     fancybox: true,
     motion: true,
@@ -181,26 +181,6 @@
         </li>
       
         
-        <li class="menu-item menu-item-categories">
-          <a href="/categories" rel="section">
-            
-              <i class="menu-item-icon fa fa-th fa-fw"></i> <br />
-            
-            分类
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-about">
-          <a href="/about" rel="section">
-            
-              <i class="menu-item-icon fa fa-user fa-fw"></i> <br />
-            
-            关于
-          </a>
-        </li>
-      
-        
         <li class="menu-item menu-item-archives">
           <a href="/archives" rel="section">
             
@@ -211,12 +191,32 @@
         </li>
       
         
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-th fa-fw"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-tags">
           <a href="/tags" rel="section">
             
               <i class="menu-item-icon fa fa-tags fa-fw"></i> <br />
             
             标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-user fa-fw"></i> <br />
+            
+            关于
           </a>
         </li>
       
@@ -306,6 +306,25 @@
           </span>
 
           
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
 
           
             
@@ -337,7 +356,7 @@
       
         <p>在 Ubuntu 安裝 Java 最简单的方法是通过 apt-get 安裝, 以下是安装方法。<br>先更新套件索引:<br><code>sudo add-apt-repository ppa:webupd8team/java</code><br><code>sudo apt-get update</code></p>
 <a id="more"></a>
-<p>如果无法使用”add-apt-repository”则请查看这篇文章以获得解决方案<a href="http://trili.me/2016/04/16/%E6%89%BE%E5%9B%9E%E5%A4%B1%E5%8E%BB%E7%9A%84add-apt-repository/">http://trili.me/2016/04/16/%E6%89%BE%E5%9B%9E%E5%A4%B1%E5%8E%BB%E7%9A%84add-apt-repository/</a><br>然後用 apt-get 安裝 Oracle JAVA 8 (JRE):<code>sudo apt-get install oracle-java8-installer</code><br>執行以上指令安裝好 Oracle Java 後, 可以用以下指令检查安裝的 Java 版本:<code>java -version</code><br>安裝 oracle-java8-set-default 管理 Java 环境变量:<code>sudo apt-get install oracle-java8-set-default</code></p>
+<p>如果无法使用”add-apt-repository”则请查看这篇文章以获得解决方案<a href="http://trili.me/photo/2016/04/16/%E6%89%BE%E5%9B%9E%E5%A4%B1%E5%8E%BB%E7%9A%84add-apt-repository/">http://trili.me/photo/2016/04/16/%E6%89%BE%E5%9B%9E%E5%A4%B1%E5%8E%BB%E7%9A%84add-apt-repository/</a><br>然後用 apt-get 安裝 Oracle JAVA 8 (JRE):<code>sudo apt-get install oracle-java8-installer</code><br>執行以上指令安裝好 Oracle Java 後, 可以用以下指令检查安裝的 Java 版本:<code>java -version</code><br>安裝 oracle-java8-set-default 管理 Java 环境变量:<code>sudo apt-get install oracle-java8-set-default</code></p>
 
       
     </div>
@@ -356,13 +375,21 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/Java-8/" rel="tag">#Java 8</a>
+          
+            <a href="/tags/Ubuntu/" rel="tag">#Ubuntu</a>
+          
+        </div>
+      
 
       
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2015/11/07/素描 2015-11-07/" rel="next" title="素描 2015-11-07">
-                <i class="fa fa-chevron-left"></i> 素描 2015-11-07
+              <a href="/2015/10/18/为Nginx配置SSL证书/" rel="next" title="为Nginx配置SSL证书">
+                <i class="fa fa-chevron-left"></i> 为Nginx配置SSL证书
               </a>
             
           </div>
@@ -452,7 +479,21 @@
           </div>
 
           
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
 
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">41</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
           
 
         </nav>
@@ -559,7 +600,7 @@
 <div class="theme-info">
   主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
+    NexT.Pisces
   </a>
 </div>
 
@@ -624,6 +665,13 @@
 
   
   
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
+
+
 
   
   <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>

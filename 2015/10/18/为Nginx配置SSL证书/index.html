@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next mist use-motion">
+<html class="theme-next pisces use-motion">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -64,7 +64,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT, Trili" />
+  <meta name="keywords" content="Nginx,SSl," />
 
 
 
@@ -90,20 +90,20 @@
 <meta property="og:site_name" content="Trili's Lab">
 <meta property="og:description" content="前言现在各大站点都开始使用https来保证网站的安全，我也不例外。这次我主要讲下如何配置ssl证书并设置自动跳转。
 证书要配置SSL前当然需要一张证书，我是在淘宝买的6元一年，很便宜的说。">
-<meta property="og:image" content="http://trili.me/2016/03/3840508577.png">
-<meta property="og:updated_time" content="2016-04-16T11:36:08.000Z">
+<meta property="og:image" content="http://trili.me/photo/2016/03/3840508577.png">
+<meta property="og:updated_time" content="2016-04-17T10:01:24.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="为Nginx配置SSL证书">
 <meta name="twitter:description" content="前言现在各大站点都开始使用https来保证网站的安全，我也不例外。这次我主要讲下如何配置ssl证书并设置自动跳转。
 证书要配置SSL前当然需要一张证书，我是在淘宝买的6元一年，很便宜的说。">
-<meta name="twitter:image" content="http://trili.me/2016/03/3840508577.png">
+<meta name="twitter:image" content="http://trili.me/photo/2016/03/3840508577.png">
 
 
 
 <script type="text/javascript" id="hexo.configuration">
   var NexT = window.NexT || {};
   var CONFIG = {
-    scheme: 'Mist',
+    scheme: 'Pisces',
     sidebar: {"position":"left","display":"post"},
     fancybox: true,
     motion: true,
@@ -186,26 +186,6 @@
         </li>
       
         
-        <li class="menu-item menu-item-categories">
-          <a href="/categories" rel="section">
-            
-              <i class="menu-item-icon fa fa-th fa-fw"></i> <br />
-            
-            分类
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-about">
-          <a href="/about" rel="section">
-            
-              <i class="menu-item-icon fa fa-user fa-fw"></i> <br />
-            
-            关于
-          </a>
-        </li>
-      
-        
         <li class="menu-item menu-item-archives">
           <a href="/archives" rel="section">
             
@@ -216,12 +196,32 @@
         </li>
       
         
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-th fa-fw"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-tags">
           <a href="/tags" rel="section">
             
               <i class="menu-item-icon fa fa-tags fa-fw"></i> <br />
             
             标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-user fa-fw"></i> <br />
+            
+            关于
           </a>
         </li>
       
@@ -311,6 +311,25 @@
           </span>
 
           
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
 
           
             
@@ -341,7 +360,7 @@
 
       
         <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>现在各大站点都开始使用https来保证网站的安全，我也不例外。<br>这次我主要讲下如何配置ssl证书并设置自动跳转。</p>
-<h2 id="证书"><a href="#证书" class="headerlink" title="证书"></a>证书</h2><p>要配置SSL前当然需要一张证书，我是在淘宝买的6元一年，很便宜的说。<br><img src="http://trili.me/2016/03/3840508577.png" alt="CA证书"></p>
+<h2 id="证书"><a href="#证书" class="headerlink" title="证书"></a>证书</h2><p>要配置SSL前当然需要一张证书，我是在淘宝买的6元一年，很便宜的说。<br><img src="http://trili.me/photo/2016/03/3840508577.png" alt="CA证书"></p>
 <a id="more"></a>
 <p>购买地址：<a href="https://item.taobao.com/item.htm?spm=a1z09.2.0.0.JvzwVQ&amp;id=15823207240&amp;_u=51qc251f8395" target="_blank" rel="external">https://item.taobao.com/item.htm?spm=a1z09.2.0.0.JvzwVQ&amp;id=15823207240&amp;_u=51qc251f8395</a></p>
 <h2 id="开启SSL支持"><a href="#开启SSL支持" class="headerlink" title="开启SSL支持"></a>开启SSL支持</h2><blockquote>
@@ -376,21 +395,29 @@ rewrite ^(.*)$ https://$host$1 permanent;
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/Nginx/" rel="tag">#Nginx</a>
+          
+            <a href="/tags/SSl/" rel="tag">#SSl</a>
+          
+        </div>
+      
 
       
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2015/10/16/素描 2015-10-16/" rel="next" title="素描 2015-10-16">
-                <i class="fa fa-chevron-left"></i> 素描 2015-10-16
+              <a href="/2015/10/18/找回失去的add-apt-repository/" rel="next" title="找回失去的add-apt-repository">
+                <i class="fa fa-chevron-left"></i> 找回失去的add-apt-repository
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2015/10/18/找回失去的add-apt-repository/" rel="prev" title="找回失去的add-apt-repository">
-                找回失去的add-apt-repository <i class="fa fa-chevron-right"></i>
+              <a href="/2015/11/10/Ubuntu 安裝 Java 8/" rel="prev" title="Ubuntu 安裝 Java 8">
+                Ubuntu 安裝 Java 8 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -472,7 +499,21 @@ rewrite ^(.*)$ https://$host$1 permanent;
           </div>
 
           
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
 
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">41</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
           
 
         </nav>
@@ -579,7 +620,7 @@ rewrite ^(.*)$ https://$host$1 permanent;
 <div class="theme-info">
   主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
+    NexT.Pisces
   </a>
 </div>
 
@@ -644,6 +685,13 @@ rewrite ^(.*)$ https://$host$1 permanent;
 
   
   
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
+
+
 
   
   <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>

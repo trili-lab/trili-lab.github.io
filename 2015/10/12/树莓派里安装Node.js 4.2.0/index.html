@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next mist use-motion">
+<html class="theme-next pisces use-motion">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -64,7 +64,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT, Trili" />
+  <meta name="keywords" content="树莓派,Node.js," />
 
 
 
@@ -88,21 +88,21 @@
 <meta property="og:url" content="http://trili.me/2015/10/12/树莓派里安装Node.js 4.2.0/index.html">
 <meta property="og:site_name" content="Trili's Lab">
 <meta property="og:description" content="前言Node.js 是一个强大的javascript库，Ghost,Hexo等博客程序都基于它。虽然树莓派基于arm架构但是安装起来与x86平台却不相类似。">
-<meta property="og:image" content="http://trili.me/2016/03/3295953148.jpg">
-<meta property="og:image" content="http://trili.me/2016/03/662604304.jpg">
-<meta property="og:image" content="http://trili.me/2016/03/64718202.jpg">
-<meta property="og:updated_time" content="2016-04-16T11:35:26.000Z">
+<meta property="og:image" content="http://trili.me/photo/2016/03/3295953148.jpg">
+<meta property="og:image" content="http://trili.me/photo/2016/03/662604304.jpg">
+<meta property="og:image" content="http://trili.me/photo/2016/03/64718202.jpg">
+<meta property="og:updated_time" content="2016-04-17T10:00:36.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="树莓派里安装Node.js 4.2.0">
 <meta name="twitter:description" content="前言Node.js 是一个强大的javascript库，Ghost,Hexo等博客程序都基于它。虽然树莓派基于arm架构但是安装起来与x86平台却不相类似。">
-<meta name="twitter:image" content="http://trili.me/2016/03/3295953148.jpg">
+<meta name="twitter:image" content="http://trili.me/photo/2016/03/3295953148.jpg">
 
 
 
 <script type="text/javascript" id="hexo.configuration">
   var NexT = window.NexT || {};
   var CONFIG = {
-    scheme: 'Mist',
+    scheme: 'Pisces',
     sidebar: {"position":"left","display":"post"},
     fancybox: true,
     motion: true,
@@ -185,26 +185,6 @@
         </li>
       
         
-        <li class="menu-item menu-item-categories">
-          <a href="/categories" rel="section">
-            
-              <i class="menu-item-icon fa fa-th fa-fw"></i> <br />
-            
-            分类
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-about">
-          <a href="/about" rel="section">
-            
-              <i class="menu-item-icon fa fa-user fa-fw"></i> <br />
-            
-            关于
-          </a>
-        </li>
-      
-        
         <li class="menu-item menu-item-archives">
           <a href="/archives" rel="section">
             
@@ -215,12 +195,32 @@
         </li>
       
         
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-th fa-fw"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-tags">
           <a href="/tags" rel="section">
             
               <i class="menu-item-icon fa fa-tags fa-fw"></i> <br />
             
             标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-user fa-fw"></i> <br />
+            
+            关于
           </a>
         </li>
       
@@ -310,6 +310,25 @@
           </span>
 
           
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
 
           
             
@@ -341,12 +360,12 @@
       
         <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Node.js 是一个强大的javascript库，Ghost,Hexo等博客程序都基于它。虽然树莓派基于arm架构但是安装起来与x86平台却不相类似。</p>
 <a id="more"></a>
-<h2 id="安装-Node-js-amp-npm"><a href="#安装-Node-js-amp-npm" class="headerlink" title="安装 Node.js &amp; npm"></a>安装 Node.js &amp; npm</h2><p>我原本打算使用软件包的方式来安装，但是在安装npm的时候却发生了错误，于是使用源码的形式来安装。<br><code>wget -N http://nodejs.org/dist/node-latest.tar.gz</code><br><img src="http://trili.me/2016/03/3295953148.jpg" alt="下载"><br>创建目录并解压缩安装文件<br><code>mkdir Ghost</code><br><code>tar xzvf node-latest.tar.gz</code><br><code>cd Ghost</code></p>
+<h2 id="安装-Node-js-amp-npm"><a href="#安装-Node-js-amp-npm" class="headerlink" title="安装 Node.js &amp; npm"></a>安装 Node.js &amp; npm</h2><p>我原本打算使用软件包的方式来安装，但是在安装npm的时候却发生了错误，于是使用源码的形式来安装。<br><code>wget -N http://nodejs.org/dist/node-latest.tar.gz</code><br><img src="http://trili.me/photo/2016/03/3295953148.jpg" alt="下载"><br>创建目录并解压缩安装文件<br><code>mkdir Ghost</code><br><code>tar xzvf node-latest.tar.gz</code><br><code>cd Ghost</code></p>
 <blockquote>
 <p>考虑到树莓派的性能，编译起码要2小时左右，于是打算使用screen挂起</p>
 </blockquote>
 <p><code>screen -S node.js</code></p>
-<p>开始漫长的编译阶段<code>./configure``sudo make</code><br>这步需要很长的时间2H左右，输入 <strong>ctrl a+d</strong> 明智的选择挂起，然后就可以断开SSH连接，去做别的事。<br>过了很长时间后，使用<code>screen —r</code>切换到之前被挂起的进程，继续完成下一步骤<br><code>sudo install</code><br><strong>这里一定要加上sudo，要不然会发生以下错误</strong><br><img src="http://trili.me/2016/03/662604304.jpg" alt="错误"><br>在成功安装后可以使用<code>node-v</code>来查看版本号<br><img src="http://trili.me/2016/03/64718202.jpg" alt="版本号"></p>
+<p>开始漫长的编译阶段<code>./configure``sudo make</code><br>这步需要很长的时间2H左右，输入 <strong>ctrl a+d</strong> 明智的选择挂起，然后就可以断开SSH连接，去做别的事。<br>过了很长时间后，使用<code>screen —r</code>切换到之前被挂起的进程，继续完成下一步骤<br><code>sudo install</code><br><strong>这里一定要加上sudo，要不然会发生以下错误</strong><br><img src="http://trili.me/photo/2016/03/662604304.jpg" alt="错误"><br>在成功安装后可以使用<code>node-v</code>来查看版本号<br><img src="http://trili.me/photo/2016/03/64718202.jpg" alt="版本号"></p>
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>至此node.js已经安装完成了，总体安装并没有什么难度，就是源码安装所花的时间有点长。。。。。。</p>
 
       
@@ -365,6 +384,14 @@
     </div>
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/树莓派/" rel="tag">#树莓派</a>
+          
+            <a href="/tags/Node-js/" rel="tag">#Node.js</a>
+          
+        </div>
       
 
       
@@ -462,7 +489,21 @@
           </div>
 
           
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
 
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">41</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
           
 
         </nav>
@@ -569,7 +610,7 @@
 <div class="theme-info">
   主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
+    NexT.Pisces
   </a>
 </div>
 
@@ -634,6 +675,13 @@
 
   
   
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
+
+
 
   
   <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>

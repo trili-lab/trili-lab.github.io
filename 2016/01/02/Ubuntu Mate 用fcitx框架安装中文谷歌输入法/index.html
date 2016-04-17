@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next mist use-motion">
+<html class="theme-next pisces use-motion">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -64,7 +64,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT, Trili" />
+  <meta name="keywords" content="Ubuntu,fcitx," />
 
 
 
@@ -88,19 +88,19 @@
 <meta property="og:url" content="http://trili.me/2016/01/02/Ubuntu Mate 用fcitx框架安装中文谷歌输入法/index.html">
 <meta property="og:site_name" content="Trili's Lab">
 <meta property="og:description" content="刚装完Ubuntu Mate时是默认的输入法是Fcitx，但是并没有提供中文输入。1、先卸载默认安装的ibus(如有安装):sudo apt-get remove ibus2、如果之前安装过Fcitx，先将其卸载：sudo apt-get remove fcitx*">
-<meta property="og:image" content="http://trili.me/2016/03/2432730136.jpg">
-<meta property="og:updated_time" content="2016-04-16T11:38:56.000Z">
+<meta property="og:image" content="http://trili.me/photo/2016/03/2432730136.jpg">
+<meta property="og:updated_time" content="2016-04-17T10:04:44.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Ubuntu Mate 用fcitx框架安装中文谷歌输入法">
 <meta name="twitter:description" content="刚装完Ubuntu Mate时是默认的输入法是Fcitx，但是并没有提供中文输入。1、先卸载默认安装的ibus(如有安装):sudo apt-get remove ibus2、如果之前安装过Fcitx，先将其卸载：sudo apt-get remove fcitx*">
-<meta name="twitter:image" content="http://trili.me/2016/03/2432730136.jpg">
+<meta name="twitter:image" content="http://trili.me/photo/2016/03/2432730136.jpg">
 
 
 
 <script type="text/javascript" id="hexo.configuration">
   var NexT = window.NexT || {};
   var CONFIG = {
-    scheme: 'Mist',
+    scheme: 'Pisces',
     sidebar: {"position":"left","display":"post"},
     fancybox: true,
     motion: true,
@@ -183,26 +183,6 @@
         </li>
       
         
-        <li class="menu-item menu-item-categories">
-          <a href="/categories" rel="section">
-            
-              <i class="menu-item-icon fa fa-th fa-fw"></i> <br />
-            
-            分类
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-about">
-          <a href="/about" rel="section">
-            
-              <i class="menu-item-icon fa fa-user fa-fw"></i> <br />
-            
-            关于
-          </a>
-        </li>
-      
-        
         <li class="menu-item menu-item-archives">
           <a href="/archives" rel="section">
             
@@ -213,12 +193,32 @@
         </li>
       
         
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-th fa-fw"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-tags">
           <a href="/tags" rel="section">
             
               <i class="menu-item-icon fa fa-tags fa-fw"></i> <br />
             
             标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-user fa-fw"></i> <br />
+            
+            关于
           </a>
         </li>
       
@@ -308,6 +308,25 @@
           </span>
 
           
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
 
           
             
@@ -339,7 +358,7 @@
       
         <p>刚装完Ubuntu Mate时是默认的输入法是Fcitx，但是并没有提供中文输入。<br>1、先卸载默认安装的ibus(如有安装):<br><code>sudo apt-get remove ibus</code><br>2、如果之前安装过Fcitx，先将其卸载：<br><code>sudo apt-get remove fcitx*</code></p>
 <a id="more"></a>
-<p>3、删除依赖库：<br><code>sudo apt-get autoremove</code><br>4、安装谷歌拼音<br><code>sudo apt-get install fcitx-googlepinyin</code><br>5、将谷歌拼音设为默认输入法：<br><code>sudo im-switch  -s  fcitx -z default</code><br>完成后就可以使用了.<br><img src="http://trili.me/2016/03/2432730136.jpg" alt="12-14-59.jpg"><br>我个人更倾向于fcitx版的google输入法，ibus版的亲测存在输入问题，ubuntu mate默认自带fcitx给点个赞(^^)/</p>
+<p>3、删除依赖库：<br><code>sudo apt-get autoremove</code><br>4、安装谷歌拼音<br><code>sudo apt-get install fcitx-googlepinyin</code><br>5、将谷歌拼音设为默认输入法：<br><code>sudo im-switch  -s  fcitx -z default</code><br>完成后就可以使用了.<br><img src="http://trili.me/photo/2016/03/2432730136.jpg" alt="12-14-59.jpg"><br>我个人更倾向于fcitx版的google输入法，ibus版的亲测存在输入问题，ubuntu mate默认自带fcitx给点个赞(^^)/</p>
 
       
     </div>
@@ -357,6 +376,14 @@
     </div>
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Ubuntu/" rel="tag">#Ubuntu</a>
+          
+            <a href="/tags/fcitx/" rel="tag">#fcitx</a>
+          
+        </div>
       
 
       
@@ -454,7 +481,21 @@
           </div>
 
           
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
 
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">41</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
           
 
         </nav>
@@ -561,7 +602,7 @@
 <div class="theme-info">
   主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
+    NexT.Pisces
   </a>
 </div>
 
@@ -626,6 +667,13 @@
 
   
   
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
+
+
 
   
   <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
