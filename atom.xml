@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://trili.me/"/>
-  <updated>2016-04-17T10:02:08.000Z</updated>
+  <updated>2016-04-17T11:25:32.000Z</updated>
   <id>http://trili.me/</id>
   
   <author>
@@ -16,27 +16,25 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://trili.me/2016/04/16/%E7%B4%A0%E6%8F%8F%202015-11-07/"/>
-    <id>http://trili.me/2016/04/16/素描 2015-11-07/</id>
-    <published>2016-04-16T08:15:07.620Z</published>
-    <updated>2016-04-17T10:02:08.000Z</updated>
+    <title>���� 2016-04-17</title>
+    <link href="http://trili.me/2016/04/17/%E7%B4%A0%E6%8F%8F%202016-04-17/"/>
+    <id>http://trili.me/2016/04/17/素描 2016-04-17/</id>
+    <published>2016-04-16T16:00:00.000Z</published>
+    <updated>2016-04-17T11:25:32.000Z</updated>
     
-    <content type="html">&lt;hr&gt;
-&lt;p&gt;title: 素描 2015-11-07&lt;br&gt;date:  2015-11-07&lt;br&gt;categories: 生活&lt;br&gt;tags:&lt;/p&gt;
-&lt;h2 id=&quot;素描&quot;&gt;&lt;a href=&quot;#素描&quot; class=&quot;headerlink&quot; title=&quot;  - 素描&quot;&gt;&lt;/a&gt;  - 素描&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://trili.me/photo/2016/03/2455692858.jpg&quot; alt=&quot;茶壶&quot;&gt;&lt;br&gt;很久之前画的茶壶；一直忘记带手机，昨天刚拍的。&lt;/p&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;&lt;img src=&quot;http://trili.me/photo/2016/03/1456760334.jpg&quot; alt=&quot;酒杯&quot;&gt;&lt;br&gt;上周的家作，我觉得画的还可以。&lt;br&gt;有好几幅画都因为时间问题没画完，就不贴出来了:-)&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://trili.me/photo/2016/04/IMG_20160417_093628.jpg&quot; alt=&quot;���� 2016-04-17&quot;&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;img src=&quot;http://trili.me/photo/2016/04/IMG_20160417_110035.jpg&quot; alt=&quot;���� 2016-04-17&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://trili.me/photo/2016/04/IMG_20160417_152531.jpg&quot; alt=&quot;���� 2016-04-17&quot;&gt;&lt;br&gt;�ܾö�û�з����������ˣ��պý����ǳ��λ�ʯ���������Ҹо����������ʷ���������Ϊ���&lt;br&gt;ps������һ�Ŷ��仭�Ĵ�æ���ǰ���Ʒ����������ûʱ���ˣ����Ծ������ˡ�&lt;/p&gt;
 </content>
     
     <summary type="html">
     
-      &lt;hr&gt;
-&lt;p&gt;title: 素描 2015-11-07&lt;br&gt;date:  2015-11-07&lt;br&gt;categories: 生活&lt;br&gt;tags:&lt;/p&gt;
-&lt;h2 id=&quot;素描&quot;&gt;&lt;a href=&quot;#素描&quot; class=&quot;headerlink&quot; title=&quot;  - 素描&quot;&gt;&lt;/a&gt;  - 素描&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://trili.me/photo/2016/03/2455692858.jpg&quot; alt=&quot;茶壶&quot;&gt;&lt;br&gt;很久之前画的茶壶；一直忘记带手机，昨天刚拍的。&lt;/p&gt;
+      &lt;p&gt;&lt;img src=&quot;http://trili.me/photo/2016/04/IMG_20160417_093628.jpg&quot; alt=&quot;���� 2016-04-17&quot;&gt;&lt;br&gt;
     
     </summary>
     
+      <category term="����" scheme="http://trili.me/categories/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD/"/>
+    
+    
+      <category term="����" scheme="http://trili.me/tags/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD/"/>
     
   </entry>
   
@@ -627,45 +625,27 @@ echo $imgurl;
   </entry>
   
   <entry>
-    <title>为Nginx配置SSL证书</title>
-    <link href="http://trili.me/2015/10/18/%E4%B8%BANginx%E9%85%8D%E7%BD%AESSL%E8%AF%81%E4%B9%A6/"/>
-    <id>http://trili.me/2015/10/18/为Nginx配置SSL证书/</id>
-    <published>2015-10-17T16:00:00.000Z</published>
-    <updated>2016-04-17T10:01:24.000Z</updated>
+    <title>素描 2015-11-07</title>
+    <link href="http://trili.me/2015/11/07/%E7%B4%A0%E6%8F%8F%202015-11-07/"/>
+    <id>http://trili.me/2015/11/07/素描 2015-11-07/</id>
+    <published>2015-11-06T16:00:00.000Z</published>
+    <updated>2016-04-17T10:55:52.000Z</updated>
     
-    <content type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;现在各大站点都开始使用https来保证网站的安全，我也不例外。&lt;br&gt;这次我主要讲下如何配置ssl证书并设置自动跳转。&lt;/p&gt;
-&lt;h2 id=&quot;证书&quot;&gt;&lt;a href=&quot;#证书&quot; class=&quot;headerlink&quot; title=&quot;证书&quot;&gt;&lt;/a&gt;证书&lt;/h2&gt;&lt;p&gt;要配置SSL前当然需要一张证书，我是在淘宝买的6元一年，很便宜的说。&lt;br&gt;&lt;img src=&quot;http://trili.me/photo/2016/03/3840508577.png&quot; alt=&quot;CA证书&quot;&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://trili.me/photo/2016/03/2455692858.jpg&quot; alt=&quot;茶壶&quot;&gt;&lt;br&gt;很久之前画的茶壶；一直忘记带手机，昨天刚拍的。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;购买地址：&lt;a href=&quot;https://item.taobao.com/item.htm?spm=a1z09.2.0.0.JvzwVQ&amp;amp;id=15823207240&amp;amp;_u=51qc251f8395&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://item.taobao.com/item.htm?spm=a1z09.2.0.0.JvzwVQ&amp;amp;id=15823207240&amp;amp;_u=51qc251f8395&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;开启SSL支持&quot;&gt;&lt;a href=&quot;#开启SSL支持&quot; class=&quot;headerlink&quot; title=&quot;开启SSL支持&quot;&gt;&lt;/a&gt;开启SSL支持&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;我以Nginx的默认文件为例&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;code&gt;nano /etc/nginx/sites-available/default&lt;/code&gt;&lt;br&gt;在server{}之间添加以下内容&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;ssl on;
-ssl_certificate .crt文件路径;
-ssl_certificate_key .key文件路径;
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;自动跳转到http&quot;&gt;&lt;a href=&quot;#自动跳转到http&quot; class=&quot;headerlink&quot; title=&quot;自动跳转到http&quot;&gt;&lt;/a&gt;自动跳转到http&lt;/h2&gt;&lt;p&gt;将以下内容粘贴到原本的server{}之前&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;server {
-server_name 你的网址;
-rewrite ^(.*)$ https://$host$1 permanent;
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;重启nginx &lt;code&gt;service nginx restart&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&quot;结语&quot;&gt;&lt;a href=&quot;#结语&quot; class=&quot;headerlink&quot; title=&quot;结语&quot;&gt;&lt;/a&gt;结语&lt;/h2&gt;&lt;p&gt;配置SSL是比较简单的，按照教程来就可以实现，有任何不懂的地方可以给我留言。&lt;br&gt;顺便说下Nginx需要自己把中继证书中的内容粘贴到.crt文件，否则在手机上访问会出现证书问题&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://trili.me/photo/2016/03/1456760334.jpg&quot; alt=&quot;酒杯&quot;&gt;&lt;br&gt;上周的家作，我觉得画的还可以。&lt;br&gt;有好几幅画都因为时间问题没画完，就不贴出来了:-)&lt;/p&gt;
 </content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;现在各大站点都开始使用https来保证网站的安全，我也不例外。&lt;br&gt;这次我主要讲下如何配置ssl证书并设置自动跳转。&lt;/p&gt;
-&lt;h2 id=&quot;证书&quot;&gt;&lt;a href=&quot;#证书&quot; class=&quot;headerlink&quot; title=&quot;证书&quot;&gt;&lt;/a&gt;证书&lt;/h2&gt;&lt;p&gt;要配置SSL前当然需要一张证书，我是在淘宝买的6元一年，很便宜的说。&lt;br&gt;&lt;img src=&quot;http://trili.me/photo/2016/03/3840508577.png&quot; alt=&quot;CA证书&quot;&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;img src=&quot;http://trili.me/photo/2016/03/2455692858.jpg&quot; alt=&quot;茶壶&quot;&gt;&lt;br&gt;很久之前画的茶壶；一直忘记带手机，昨天刚拍的。&lt;/p&gt;
     
     </summary>
     
-      <category term="技术" scheme="http://trili.me/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="生活" scheme="http://trili.me/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="Nginx" scheme="http://trili.me/tags/Nginx/"/>
-    
-      <category term="SSl" scheme="http://trili.me/tags/SSl/"/>
+      <category term="素描" scheme="http://trili.me/tags/%E7%B4%A0%E6%8F%8F/"/>
     
   </entry>
   
