@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://trili.me/"/>
-  <updated>2016-04-17T11:32:20.000Z</updated>
+  <updated>2016-04-22T12:01:00.000Z</updated>
   <id>http://trili.me/</id>
   
   <author>
@@ -14,6 +14,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>初次使用WP10.md</title>
+    <link href="http://trili.me/2016/04/22/%E5%88%9D%E6%AC%A1%E4%BD%BF%E7%94%A8WP10/"/>
+    <id>http://trili.me/2016/04/22/初次使用WP10/</id>
+    <published>2016-04-21T16:00:00.000Z</published>
+    <updated>2016-04-22T12:01:00.000Z</updated>
+    
+    <content type="html">&lt;p&gt;就在上周手中的诺基亚推送了升级WP10，虽然官方吧啦吧啦说了一大堆的更新，但是我看着跟WP8没有什么太大的区别。&lt;br&gt;设置界面还是这么不好用，修改个锁屏密码每次都要找上半天；应用(QQ，淘宝)也还是老样子，该抽风的依旧抽风 我明明开了数据连接，还给我显示未连接到网络= =&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;设备信息&quot;&gt;&lt;a href=&quot;#设备信息&quot; class=&quot;headerlink&quot; title=&quot;设备信息&quot;&gt;&lt;/a&gt;设备信息&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://trili.me/photo/2016/04/WP10-1.png&quot; alt=&quot;设备信息&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;系统应用&quot;&gt;&lt;a href=&quot;#系统应用&quot; class=&quot;headerlink&quot; title=&quot;系统应用&quot;&gt;&lt;/a&gt;系统应用&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://trili.me/photo/2016/04/WP10-2.png&quot; alt=&quot;系统应用&quot;&gt;&lt;br&gt;文件管理是WP10新增加的，表示仅仅能满足日常使用，没有ftp啊之类的高级功能；“收件箱”是我使用下来感觉最好的一块应用了。&lt;br&gt;&lt;img src=&quot;http://trili.me/photo/2016/04/WP10-other.png&quot; alt=&quot;相机&quot;&gt;&lt;br&gt;相机是能最明显感受到升级了，比起WP7/8的而言已经有了很大的进步&lt;del&gt;废话之前的能看？&lt;/del&gt;&lt;/p&gt;
+&lt;h2 id=&quot;第三方应用&quot;&gt;&lt;a href=&quot;#第三方应用&quot; class=&quot;headerlink&quot; title=&quot;第三方应用&quot;&gt;&lt;/a&gt;第三方应用&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://trili.me/photo/2016/04/WP10-3.png&quot; alt=&quot;第三方应用&quot;&gt;&lt;br&gt;QQ毫无变化，iCleaner是诺基亚特有的应用，感觉挺实用。&lt;/p&gt;
+&lt;h2 id=&quot;感受&quot;&gt;&lt;a href=&quot;#感受&quot; class=&quot;headerlink&quot; title=&quot;感受&quot;&gt;&lt;/a&gt;感受&lt;/h2&gt;&lt;p&gt;给我最大的感受就是整个手机变卡了，没有之前WP8的流畅，当然有可能是我手机配置本来就不高(1G RAM)。&lt;br&gt;其次就是手机的待机时间再次变长，在轻度使用下一星期不用充电，看一天小说也不会耗上5%的电；同时充电变快了，在电脑usb3.0的接口上半小时就能从12%充到54%，&lt;strong&gt;经过使用并不是虚电&lt;/strong&gt;，而是实实在在的充到了54%。&lt;/p&gt;
+&lt;h2 id=&quot;总结&quot;&gt;&lt;a href=&quot;#总结&quot; class=&quot;headerlink&quot; title=&quot;总结&quot;&gt;&lt;/a&gt;总结&lt;/h2&gt;&lt;p&gt;WP10升级不升级都一样，官方也没有强制要求更新；其实把升级WP10还是&lt;strong&gt;装逼&lt;/strong&gt;的成分来的多一些。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;就在上周手中的诺基亚推送了升级WP10，虽然官方吧啦吧啦说了一大堆的更新，但是我看着跟WP8没有什么太大的区别。&lt;br&gt;设置界面还是这么不好用，修改个锁屏密码每次都要找上半天；应用(QQ，淘宝)也还是老样子，该抽风的依旧抽风 我明明开了数据连接，还给我显示未连接到网络= =&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="WP10" scheme="http://trili.me/categories/WP10/"/>
+    
+    
+      <category term="WindowsPhone" scheme="http://trili.me/tags/WindowsPhone/"/>
+    
+  </entry>
   
   <entry>
     <title>素描 2016-04-17</title>
@@ -137,25 +166,25 @@
     <link href="http://trili.me/2016/04/02/%E6%B8%B8%E6%88%8F%EF%BC%9F%E6%88%91%E5%8F%AA%E7%8E%A9%E8%BF%99%E4%BA%9B/"/>
     <id>http://trili.me/2016/04/02/游戏？我只玩这些/</id>
     <published>2016-04-01T16:00:00.000Z</published>
-    <updated>2016-04-22T09:50:38.000Z</updated>
+    <updated>2016-04-22T09:59:52.000Z</updated>
     
     <content type="html">&lt;p&gt;手机对我而言早已不再是通讯的工具，它已经成为了我生活中必不可少的东西。&lt;br&gt;平时的买买买，看视频，听音乐也基本都在手机上执行。但是对我而言手机最让我无法割舍的原因就是手机能玩游戏；Play Store里的游戏总是让我看的眼花，各个游戏的内容，玩法又各不相同。&lt;br&gt;所以今天，我挑选出最喜欢的5个游戏，与大家分享。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;h2 id=&quot;Minecraft-Pocket-Edition&quot;&gt;&lt;a href=&quot;#Minecraft-Pocket-Edition&quot; class=&quot;headerlink&quot; title=&quot;Minecraft - Pocket Edition&quot;&gt;&lt;/a&gt;Minecraft - Pocket Edition&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://trili.me/photo/2016/04/3533550007.png&quot; alt=&quot;Minecraft - Pocket Edition&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h3&gt;&lt;p&gt;喜欢&lt;strong&gt;我的世界&lt;/strong&gt;的人都说这是一款神级游戏，开放好玩。不喜欢都说这游戏没剧情，不会玩。&lt;br&gt;是的，我喜欢Minecraft - Pocket Edition的原因就是因为它的开放，自由的世界可以让我脑洞大开。&lt;br&gt;房子，铁轨，矿洞都由我自己创造；乐趣无穷。&lt;/p&gt;
-&lt;h3 id=&quot;下载&quot;&gt;&lt;a href=&quot;#下载&quot; class=&quot;headerlink&quot; title=&quot;下载&quot;&gt;&lt;/a&gt;下载&lt;/h3&gt;&lt;p&gt;&lt;span class=&quot;post-more-link&quot;&gt;&lt;br&gt;&lt;a class=&quot;btn&quot; href=&quot;https://play.google.com/store/apps/details?id=com.mojang.minecraftpe&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Google play&lt;/a&gt; &lt;a class=&quot;btn&quot; href=&quot;http://coolapk.com/game/com.mojang.minecraftpe&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CoolApk&lt;/a&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;下载&quot;&gt;&lt;a href=&quot;#下载&quot; class=&quot;headerlink&quot; title=&quot;下载&quot;&gt;&lt;/a&gt;下载&lt;/h3&gt;&lt;p&gt;&lt;span class=&quot;post-more-link&quot;&gt;&lt;a class=&quot;btn&quot; href=&quot;https://play.google.com/store/apps/details?id=com.mojang.minecraftpe&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Google play&lt;/a&gt; &lt;a class=&quot;btn&quot; href=&quot;http://coolapk.com/game/com.mojang.minecraftpe&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CoolApk&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Geometry-Dash-Lite&quot;&gt;&lt;a href=&quot;#Geometry-Dash-Lite&quot; class=&quot;headerlink&quot; title=&quot;Geometry Dash Lite&quot;&gt;&lt;/a&gt;Geometry Dash Lite&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://trili.me/photo/2016/04/2404768118.png&quot; alt=&quot;Geometry Dash Lite&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;介绍-1&quot;&gt;&lt;a href=&quot;#介绍-1&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h3&gt;&lt;p&gt;这款游戏是&lt;a href=&quot;http://imikirby.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;老杨&lt;/a&gt;分享给我的，游戏的难度很大；我玩了几个月了都才玩到第三关。&lt;br&gt;而老杨则像是开了挂一样，简直逆天。这游戏治好了我多年的手残~~~&lt;/p&gt;
-&lt;h3 id=&quot;下载-1&quot;&gt;&lt;a href=&quot;#下载-1&quot; class=&quot;headerlink&quot; title=&quot;下载&quot;&gt;&lt;/a&gt;下载&lt;/h3&gt;&lt;p&gt;&lt;span class=&quot;post-more-link&quot;&gt;&lt;br&gt;&lt;a class=&quot;btn&quot; href=&quot;https://play.google.com/store/apps/details?id=com.robtopx.geometryjump&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Google play&lt;/a&gt; &lt;a class=&quot;btn&quot; href=&quot;http://coolapk.com/game/com.robtopx.geometryjump&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CoolApk&lt;/a&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;下载-1&quot;&gt;&lt;a href=&quot;#下载-1&quot; class=&quot;headerlink&quot; title=&quot;下载&quot;&gt;&lt;/a&gt;下载&lt;/h3&gt;&lt;p&gt;&lt;span class=&quot;post-more-link&quot;&gt;&lt;a class=&quot;btn&quot; href=&quot;https://play.google.com/store/apps/details?id=com.robtopx.geometryjump&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Google play&lt;/a&gt; &lt;a class=&quot;btn&quot; href=&quot;http://coolapk.com/game/com.robtopx.geometryjump&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CoolApk&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Alto’s-Adventure&quot;&gt;&lt;a href=&quot;#Alto’s-Adventure&quot; class=&quot;headerlink&quot; title=&quot;Alto’s Adventure&quot;&gt;&lt;/a&gt;Alto’s Adventure&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://trili.me/photo/2016/04/3248546110.png&quot; alt=&quot;Alto&amp;#39;s Adventure&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;介绍-2&quot;&gt;&lt;a href=&quot;#介绍-2&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h3&gt;&lt;p&gt;这个游戏类似于国内的&lt;strong&gt;滑雪大冒险&lt;/strong&gt;但是游戏的画风两者是根本无法相比的；ALTO的画风唯美，每一帧都可以作为壁纸。&lt;br&gt;同时难度也不小，有&lt;strong&gt;长者&lt;/strong&gt;会骑着马来追杀你。表示昨晚刚刚打破老杨的记录，哈哈&lt;/p&gt;
-&lt;h3 id=&quot;下载-2&quot;&gt;&lt;a href=&quot;#下载-2&quot; class=&quot;headerlink&quot; title=&quot;下载&quot;&gt;&lt;/a&gt;下载&lt;/h3&gt;&lt;p&gt;&lt;span class=&quot;post-more-link&quot;&gt;&lt;br&gt;&lt;a class=&quot;btn&quot; href=&quot;https://play.google.com/store/apps/details?id=com.noodlecake.altosadventure&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Google play&lt;/a&gt; &lt;a class=&quot;btn&quot; href=&quot;http://coolapk.com/game/com.noodlecake.altosadventure&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CoolApk&lt;/a&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;下载-2&quot;&gt;&lt;a href=&quot;#下载-2&quot; class=&quot;headerlink&quot; title=&quot;下载&quot;&gt;&lt;/a&gt;下载&lt;/h3&gt;&lt;p&gt;&lt;span class=&quot;post-more-link&quot;&gt;&lt;a class=&quot;btn&quot; href=&quot;https://play.google.com/store/apps/details?id=com.noodlecake.altosadventure&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Google play&lt;/a&gt; &lt;a class=&quot;btn&quot; href=&quot;http://coolapk.com/game/com.noodlecake.altosadventure&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CoolApk&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;h2 id=&quot;BADLAND&quot;&gt;&lt;a href=&quot;#BADLAND&quot; class=&quot;headerlink&quot; title=&quot;BADLAND&quot;&gt;&lt;/a&gt;BADLAND&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://trili.me/photo/2016/04/2146093836.png&quot; alt=&quot;BADLAND&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;介绍-3&quot;&gt;&lt;a href=&quot;#介绍-3&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h3&gt;&lt;p&gt;这款游戏跟ALTO一样，画风唯美；但是游戏玩到后面。关卡的难度简直变态；想通关，还得靠运气。&lt;/p&gt;
-&lt;h3 id=&quot;下载-3&quot;&gt;&lt;a href=&quot;#下载-3&quot; class=&quot;headerlink&quot; title=&quot;下载&quot;&gt;&lt;/a&gt;下载&lt;/h3&gt;&lt;p&gt;由于GFW原因，在酷安安装的游戏无法下载到数据包&lt;del&gt;，所以我上传了游戏的数据包，数据包请在“OwnCloud”下载。&lt;/del&gt;&lt;br&gt;&lt;span class=&quot;post-more-link&quot;&gt;&lt;br&gt;&lt;a class=&quot;btn&quot; href=&quot;https://play.google.com/store/apps/details?id=com.frogmind.badland&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Google play&lt;/a&gt; &lt;a class=&quot;btn&quot; href=&quot;http://coolapk.com/game/com.frogmind.badland&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CoolApk&lt;/a&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;下载-3&quot;&gt;&lt;a href=&quot;#下载-3&quot; class=&quot;headerlink&quot; title=&quot;下载&quot;&gt;&lt;/a&gt;下载&lt;/h3&gt;&lt;p&gt;由于GFW原因，在酷安安装的游戏无法下载到数据包&lt;del&gt;，所以我上传了游戏的数据包，数据包请在“OwnCloud”下载。&lt;/del&gt;&lt;br&gt;&lt;span class=&quot;post-more-link&quot;&gt;&lt;a class=&quot;btn&quot; href=&quot;https://play.google.com/store/apps/details?id=com.frogmind.badland&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Google play&lt;/a&gt; &lt;a class=&quot;btn&quot; href=&quot;http://coolapk.com/game/com.frogmind.badland&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CoolApk&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Daddy-Long-Legs&quot;&gt;&lt;a href=&quot;#Daddy-Long-Legs&quot; class=&quot;headerlink&quot; title=&quot;Daddy Long Legs&quot;&gt;&lt;/a&gt;Daddy Long Legs&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://trili.me/photo/2016/04/2806396637.png&quot; alt=&quot;Daddy Long Legs&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;介绍-4&quot;&gt;&lt;a href=&quot;#介绍-4&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h3&gt;&lt;p&gt;这是一款超级虐心的游戏，纯靠人品的游戏。唉，玩得我都想摔机了= =&lt;/p&gt;
-&lt;h3 id=&quot;下载-4&quot;&gt;&lt;a href=&quot;#下载-4&quot; class=&quot;headerlink&quot; title=&quot;下载&quot;&gt;&lt;/a&gt;下载&lt;/h3&gt;&lt;p&gt;&lt;span class=&quot;post-more-link&quot;&gt;&lt;br&gt;&lt;a class=&quot;btn&quot; href=&quot;https://play.google.com/store/apps/details?id=com.setsnail.daddylonglegs&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Google play&lt;/a&gt; &lt;a class=&quot;btn&quot; href=&quot;http://coolapk.com/game/com.setsnail.daddylonglegs&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CoolApk&lt;/a&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;下载-4&quot;&gt;&lt;a href=&quot;#下载-4&quot; class=&quot;headerlink&quot; title=&quot;下载&quot;&gt;&lt;/a&gt;下载&lt;/h3&gt;&lt;p&gt;&lt;span class=&quot;post-more-link&quot;&gt;&lt;a class=&quot;btn&quot; href=&quot;https://play.google.com/store/apps/details?id=com.setsnail.daddylonglegs&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Google play&lt;/a&gt; &lt;a class=&quot;btn&quot; href=&quot;http://coolapk.com/game/com.setsnail.daddylonglegs&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CoolApk&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;h2 id=&quot;游戏视频&quot;&gt;&lt;a href=&quot;#游戏视频&quot; class=&quot;headerlink&quot; title=&quot;游戏视频&quot;&gt;&lt;/a&gt;游戏视频&lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;视频内容以介绍性为主，所以死的比较快。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -612,34 +641,9 @@ echo $imgurl;
       <category term="技术" scheme="http://trili.me/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="Java 8" scheme="http://trili.me/tags/Java-8/"/>
-    
       <category term="Ubuntu" scheme="http://trili.me/tags/Ubuntu/"/>
     
-  </entry>
-  
-  <entry>
-    <title>素描 2015-11-07</title>
-    <link href="http://trili.me/2015/11/07/%E7%B4%A0%E6%8F%8F%202015-11-07/"/>
-    <id>http://trili.me/2015/11/07/素描 2015-11-07/</id>
-    <published>2015-11-06T16:00:00.000Z</published>
-    <updated>2016-04-17T10:55:52.000Z</updated>
-    
-    <content type="html">&lt;p&gt;&lt;img src=&quot;http://trili.me/photo/2016/03/2455692858.jpg&quot; alt=&quot;茶壶&quot;&gt;&lt;br&gt;很久之前画的茶壶；一直忘记带手机，昨天刚拍的。&lt;/p&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;&lt;img src=&quot;http://trili.me/photo/2016/03/1456760334.jpg&quot; alt=&quot;酒杯&quot;&gt;&lt;br&gt;上周的家作，我觉得画的还可以。&lt;br&gt;有好几幅画都因为时间问题没画完，就不贴出来了:-)&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://trili.me/photo/2016/03/2455692858.jpg&quot; alt=&quot;茶壶&quot;&gt;&lt;br&gt;很久之前画的茶壶；一直忘记带手机，昨天刚拍的。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="生活" scheme="http://trili.me/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-      <category term="素描" scheme="http://trili.me/tags/%E7%B4%A0%E6%8F%8F/"/>
+      <category term="Java 8" scheme="http://trili.me/tags/Java-8/"/>
     
   </entry>
   
