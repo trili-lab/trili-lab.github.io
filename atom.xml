@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://trili.me/"/>
-  <updated>2016-04-22T12:01:00.000Z</updated>
+  <updated>2016-04-23T04:36:18.000Z</updated>
   <id>http://trili.me/</id>
   
   <author>
@@ -16,16 +16,16 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>初次使用WP10.md</title>
+    <title>初次使用WP10</title>
     <link href="http://trili.me/2016/04/22/%E5%88%9D%E6%AC%A1%E4%BD%BF%E7%94%A8WP10/"/>
     <id>http://trili.me/2016/04/22/初次使用WP10/</id>
     <published>2016-04-21T16:00:00.000Z</published>
-    <updated>2016-04-22T12:01:00.000Z</updated>
+    <updated>2016-04-23T04:36:18.000Z</updated>
     
     <content type="html">&lt;p&gt;就在上周手中的诺基亚推送了升级WP10，虽然官方吧啦吧啦说了一大堆的更新，但是我看着跟WP8没有什么太大的区别。&lt;br&gt;设置界面还是这么不好用，修改个锁屏密码每次都要找上半天；应用(QQ，淘宝)也还是老样子，该抽风的依旧抽风 我明明开了数据连接，还给我显示未连接到网络= =&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;h2 id=&quot;设备信息&quot;&gt;&lt;a href=&quot;#设备信息&quot; class=&quot;headerlink&quot; title=&quot;设备信息&quot;&gt;&lt;/a&gt;设备信息&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://trili.me/photo/2016/04/WP10-1.png&quot; alt=&quot;设备信息&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;系统应用&quot;&gt;&lt;a href=&quot;#系统应用&quot; class=&quot;headerlink&quot; title=&quot;系统应用&quot;&gt;&lt;/a&gt;系统应用&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://trili.me/photo/2016/04/WP10-2.png&quot; alt=&quot;系统应用&quot;&gt;&lt;br&gt;文件管理是WP10新增加的，表示仅仅能满足日常使用，没有ftp啊之类的高级功能；“收件箱”是我使用下来感觉最好的一块应用了。&lt;br&gt;&lt;img src=&quot;http://trili.me/photo/2016/04/WP10-other.png&quot; alt=&quot;相机&quot;&gt;&lt;br&gt;相机是能最明显感受到升级了，比起WP7/8的而言已经有了很大的进步&lt;del&gt;废话之前的能看？&lt;/del&gt;&lt;/p&gt;
+&lt;h2 id=&quot;系统应用&quot;&gt;&lt;a href=&quot;#系统应用&quot; class=&quot;headerlink&quot; title=&quot;系统应用&quot;&gt;&lt;/a&gt;系统应用&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://trili.me/photo/2016/04/WP10-2.png&quot; alt=&quot;系统应用&quot;&gt;&lt;br&gt;文件管理是WP10新增加的，表示仅仅能满足日常使用，没有ftp啊之类的高级功能；“收件箱”是我使用下来感觉最好的一款应用了。&lt;br&gt;&lt;img src=&quot;http://trili.me/photo/2016/04/WP10-other.png&quot; alt=&quot;相机&quot;&gt;&lt;br&gt;相机是能最明显感受到升级了，比起WP7/8的而言已经有了很大的进步&lt;del&gt;废话之前的能看？&lt;/del&gt;&lt;/p&gt;
 &lt;h2 id=&quot;第三方应用&quot;&gt;&lt;a href=&quot;#第三方应用&quot; class=&quot;headerlink&quot; title=&quot;第三方应用&quot;&gt;&lt;/a&gt;第三方应用&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://trili.me/photo/2016/04/WP10-3.png&quot; alt=&quot;第三方应用&quot;&gt;&lt;br&gt;QQ毫无变化，iCleaner是诺基亚特有的应用，感觉挺实用。&lt;/p&gt;
 &lt;h2 id=&quot;感受&quot;&gt;&lt;a href=&quot;#感受&quot; class=&quot;headerlink&quot; title=&quot;感受&quot;&gt;&lt;/a&gt;感受&lt;/h2&gt;&lt;p&gt;给我最大的感受就是整个手机变卡了，没有之前WP8的流畅，当然有可能是我手机配置本来就不高(1G RAM)。&lt;br&gt;其次就是手机的待机时间再次变长，在轻度使用下一星期不用充电，看一天小说也不会耗上5%的电；同时充电变快了，在电脑usb3.0的接口上半小时就能从12%充到54%，&lt;strong&gt;经过使用并不是虚电&lt;/strong&gt;，而是实实在在的充到了54%。&lt;/p&gt;
 &lt;h2 id=&quot;总结&quot;&gt;&lt;a href=&quot;#总结&quot; class=&quot;headerlink&quot; title=&quot;总结&quot;&gt;&lt;/a&gt;总结&lt;/h2&gt;&lt;p&gt;WP10升级不升级都一样，官方也没有强制要求更新；其实把升级WP10还是&lt;strong&gt;装逼&lt;/strong&gt;的成分来的多一些。&lt;/p&gt;
@@ -641,9 +641,9 @@ echo $imgurl;
       <category term="技术" scheme="http://trili.me/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="Ubuntu" scheme="http://trili.me/tags/Ubuntu/"/>
-    
       <category term="Java 8" scheme="http://trili.me/tags/Java-8/"/>
+    
+      <category term="Ubuntu" scheme="http://trili.me/tags/Ubuntu/"/>
     
   </entry>
   
